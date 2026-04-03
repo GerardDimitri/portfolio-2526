@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 763.65">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .3;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        mix-blend-mode: overlay;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="847.53" y1="-232.11" x2="1058.29" y2="1202.51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a7eef2"/>
+      <stop offset=".03" stop-color="#9debf2"/>
+      <stop offset=".2" stop-color="#70ddf3"/>
+      <stop offset=".36" stop-color="#4ad2f3"/>
+      <stop offset=".53" stop-color="#2dc9f4"/>
+      <stop offset=".69" stop-color="#18c3f4"/>
+      <stop offset=".85" stop-color="#0cbff4"/>
+      <stop offset="1" stop-color="#08bef5"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-2">
+    <g id="Calque_1" data-name="Calque 1">
+      <rect class="cls-4" y="-188.75" width="1920" height="1444.41"/>
+      <g class="cls-1">
+        <g class="cls-3">
+          <image width="185" height="79" transform="translate(576.39 -73.65)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALkAAABPCAYAAAC3ZmRYAAAACXBIWXMAAAsSAAALEgHS3X78AAACAklEQVR4nO3dwXEbQRTE0JHzz5kKweUq7g7QxouA6oG+eNPP5/P5OX4LPwPJ5/YH+KY/tz/AFxT4901tao986jFgZrY1Rz7zCGATG1sjnxg/7zBGXuDv0u9tjDzvU4dui1w9tpx2e1Pk2pFzlyXyAmdQvoMl8nDoQjdErhs1LIbIw6M6PPTIVWOGiRx5gbNp3occefgUoVMjV4wXB2rk8cAfJGLk+NHiQou8wJ3Q70aLPPk6UuToa5C/wr4fKfLkEZTIsVcg/wT5jpTIk8cUeb4Nd80JkeNGyRZC5MmjijxPQP11vh05aoxsuh158rgiz7wiz1MwX0VvRo4ZIdu65JlX5JlX5JlX5JlX5JlX5JlX5JlX5JlX5JlX5HkK5l+XF3nm3Ywc85uebV3yzCvyzCvyPAH1VfR25Kgxsul25NmDO1xFnnmEyHG/+dlCiDw7kAeLEjlynGygRB4/7KEiRY4dKW6kyOOFPlC0yNFjxYkWeXzwh4kYOX60uBAjj4fiIFEjV4z3n9O8ETXyc0Qjho0cebhUB4geuWrMMNEjD4/u8Bgi1406TPkWhsjPkY4bBkvkuU97aEyRa0ceoN7eFPk58rGl9JvbIj9nYPS8yxh53jNxUKyRT4wPN7OxNfJzhh4BaGpbc+TnjD0GxNym9sjPGXyUiya3XIj8nNHHednshr9GFy2YUXzGkAAAAABJRU5ErkJggg=="/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

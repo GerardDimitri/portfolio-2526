@@ -1,0 +1,146 @@
+$font-title: 'Pacifico', cursive;
+$font-text: 'Aleo', serif;
+$color-white: #ffffff;
+$color-bg-mobile: #001a3d;
+$transition-base: 0.3s ease;
+$transition-menu: 0.4s ease-in-out;
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+  padding: 20px 0;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  &__logo {
+    position: relative;
+    z-index: 1100;
+
+    &-svg {
+      width: 60px;
+      height: 40px;
+      display: block;
+      path { fill: $color-white; }
+    }
+  }
+
+  &__checkbox {
+    display: none;
+
+    &:checked ~ .header__menu {
+      right: 0;
+    }
+
+    &:checked ~ .header__burger {
+      .header__burger-line:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+      .header__burger-line:nth-child(2) { opacity: 0; }
+      .header__burger-line:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+    }
+  }
+
+  &__burger {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    z-index: 1100;
+    padding: 10px;
+
+    &-line {
+      display: block;
+      width: 30px;
+      height: 3px;
+      background-color: $color-white;
+      transition: transform $transition-base, opacity $transition-base;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    align-items: center;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-white;
+    font-family: $font-text;
+    font-size: 0.8rem;
+    font-weight: 700;
+    position: relative;
+    padding: 8px 0;
+    transition: color $transition-base;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: $color-white;
+      transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    &__burger { display: flex; }
+
+    &__menu {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 100%;
+      height: 100vh;
+      background-color: $color-bg-mobile;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+      transition: right $transition-menu;
+      z-index: 1000;
+    }
+
+    &__link { font-size: 1.5rem; }
+  }
+}
+
+.sro {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: $color-white;
+  padding: 10px;
+  z-index: 200;
+  font-family: $font-text;
+  transition: top 0.3s;
+  &:focus { top: 0; }
+}

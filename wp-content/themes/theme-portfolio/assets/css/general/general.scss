@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+$font-title: 'Pacifico', cursive;
+$font-text: 'Aleo', serif;
+$text-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+$hero-height-mobile: 85vh;
+$hero-height-desktop: 85vh;
+
+@mixin flex-center-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing {
+  @include flex-center-column;
+  justify-content: flex-start;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  min-height: $hero-height-mobile;
+  background: url('../../img/bg-sky.svg') center bottom / cover no-repeat;
+  position: relative;
+
+  @media (min-width: 1024px) {
+    min-height: $hero-height-desktop;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 1;
+    padding-top: 20vh;
+    width: 100%;
+    max-width: 1200px;
+    @media (min-width: 1024px) {
+      padding-top: 10vh;
+    }
+  }
+
+  &__title {
+    font-family: $font-title;
+    color: #ffffff;
+    font-size: clamp(3rem, 12vw, 6.5rem);
+    text-shadow: $text-shadow;
+    line-height: 1.2;
+    margin-bottom: 0.2rem;
+    padding: 0 10px;
+  }
+
+  &__boat {
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+    bottom: 1%;
+    left: -4%;
+    width: 50vh;
+    animation: boatSwayMobile 6s ease-in-out infinite;
+    transform-origin: center bottom;
+
+    svg {
+      width: 100%;
+      height: auto;
+      display: block;
+      filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.3));
+    }
+    @media (min-width: 1024px) {
+      bottom: -5%;
+      left: 15vw;
+      width: 65vh;
+      animation: boatSwayDesktop 6s ease-in-out infinite;
+    }
+  }
+
+  @keyframes boatSwayMobile {
+    0%, 100% { transform: rotate(-1deg) translateY(0); }
+    50%      { transform: rotate(1.5deg) translateY(-15px); }
+  }
+
+  @keyframes boatSwayDesktop {
+    0%, 100% { transform: rotate(-1.5deg) translateY(0); }
+    50%      { transform: rotate(2deg) translateY(-20px); }
+  }
+}

@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1271 252">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#radial-gradient70);
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29, .st30, .st31, .st32, .st33, .st34, .st35, .st36, .st37, .st38, .st39, .st40, .st41, .st42 {
+        opacity: .5;
+      }
+
+      .st43 {
+        fill: url(#radial-gradient20);
+      }
+
+      .st43, .st44, .st45, .st46, .st47, .st48, .st49, .st50, .st51, .st52, .st53, .st54, .st55, .st56, .st57, .st58, .st59, .st60, .st61, .st62, .st63, .st64 {
+        mix-blend-mode: luminosity;
+        opacity: .3;
+      }
+
+      .st44 {
+        fill: url(#radial-gradient4);
+      }
+
+      .st1 {
+        fill: url(#radial-gradient49);
+      }
+
+      .st45 {
+        fill: url(#radial-gradient80);
+      }
+
+      .st65 {
+        mask: url(#mask-35);
+      }
+
+      .st66 {
+        fill: url(#radial-gradient19);
+      }
+
+      .st66, .st67, .st68, .st69, .st70, .st71, .st72, .st73, .st74, .st75, .st76, .st77, .st78, .st79, .st80, .st81, .st82, .st83, .st84, .st85, .st86, .st87 {
+        mix-blend-mode: multiply;
+      }
+
+      .st88 {
+        mask: url(#mask-15);
+      }
+
+      .st67 {
+        fill: url(#radial-gradient3);
+      }
+
+      .st89 {
+        filter: url(#luminosity-noclip40);
+      }
+
+      .st46 {
+        fill: url(#radial-gradient44);
+      }
+
+      .st90 {
+        mask: url(#mask-5);
+      }
+
+      .st91 {
+        mask: url(#mask-13);
+      }
+
+      .st92 {
+        filter: url(#luminosity-noclip14);
+      }
+
+      .st47 {
+        fill: url(#radial-gradient1);
+      }
+
+      .st93 {
+        filter: url(#luminosity-noclip18);
+      }
+
+      .st94 {
+        filter: url(#luminosity-noclip20);
+      }
+
+      .st95 {
+        filter: url(#luminosity-noclip43);
+      }
+
+      .st96 {
+        mask: url(#mask-1);
+      }
+
+      .st97 {
+        filter: url(#luminosity-noclip11);
+      }
+
+      .st2 {
+        fill: url(#radial-gradient29);
+      }
+
+      .st3 {
+        fill: url(#radial-gradient46);
+      }
+
+      .st98 {
+        filter: url(#luminosity-noclip36);
+      }
+
+      .st4 {
+        fill: url(#radial-gradient22);
+      }
+
+      .st48 {
+        fill: url(#radial-gradient76);
+      }
+
+      .st49 {
+        fill: url(#radial-gradient24);
+      }
+
+      .st99 {
+        filter: url(#luminosity-noclip38);
+      }
+
+      .st100 {
+        mask: url(#mask-10);
+      }
+
+      .st101 {
+        mask: url(#mask-6);
+      }
+
+      .st68 {
+        fill: url(#radial-gradient63);
+      }
+
+      .st69 {
+        fill: url(#radial-gradient);
+      }
+
+      .st102 {
+        mask: url(#mask-7);
+      }
+
+      .st103 {
+        mask: url(#mask-18);
+      }
+
+      .st104 {
+        filter: url(#luminosity-noclip6);
+      }
+
+      .st5 {
+        fill: url(#radial-gradient53);
+      }
+
+      .st105 {
+        filter: url(#luminosity-noclip32);
+      }
+
+      .st106 {
+        filter: url(#luminosity-noclip23);
+      }
+
+      .st107 {
+        fill: #fff;
+      }
+
+      .st108 {
+        mask: url(#mask-17);
+      }
+
+      .st109 {
+        mask: url(#mask);
+      }
+
+      .st6 {
+        fill: url(#radial-gradient65);
+      }
+
+      .st110 {
+        filter: url(#luminosity-noclip16);
+      }
+
+      .st7 {
+        fill: url(#radial-gradient34);
+      }
+
+      .st111 {
+        mask: url(#mask-30);
+      }
+
+      .st112 {
+        filter: url(#luminosity-noclip10);
+      }
+
+      .st113 {
+        mask: url(#mask-37);
+      }
+
+      .st70 {
+        fill: url(#radial-gradient75);
+      }
+
+      .st114 {
+        opacity: .4;
+      }
+
+      .st115 {
+        filter: url(#luminosity-noclip34);
+      }
+
+      .st116 {
+        mask: url(#mask-20);
+      }
+
+      .st117 {
+        mask: url(#mask-38);
+      }
+
+      .st8 {
+        fill: url(#radial-gradient13);
+      }
+
+      .st118 {
+        filter: url(#luminosity-noclip5);
+      }
+
+      .st50 {
+        fill: url(#radial-gradient8);
+      }
+
+      .st71 {
+        fill: url(#radial-gradient39);
+      }
+
+      .st9 {
+        fill: url(#radial-gradient6);
+      }
+
+      .st119 {
+        mask: url(#mask-8);
+      }
+
+      .st120 {
+        mask: url(#mask-36);
+      }
+
+      .st51 {
+        fill: url(#radial-gradient40);
+      }
+
+      .st121 {
+        mask: url(#mask-2);
+      }
+
+      .st122 {
+        mask: url(#mask-31);
+      }
+
+      .st52 {
+        fill: url(#radial-gradient56);
+      }
+
+      .st72 {
+        fill: url(#radial-gradient59);
+      }
+
+      .st73 {
+        fill: url(#radial-gradient51);
+      }
+
+      .st74 {
+        fill: url(#radial-gradient35);
+      }
+
+      .st123 {
+        mask: url(#mask-9);
+      }
+
+      .st124 {
+        opacity: .8;
+      }
+
+      .st75 {
+        fill: url(#radial-gradient7);
+      }
+
+      .st53 {
+        fill: url(#radial-gradient72);
+      }
+
+      .st10 {
+        fill: url(#radial-gradient18);
+      }
+
+      .st76 {
+        fill: url(#radial-gradient47);
+      }
+
+      .st11 {
+        fill: url(#radial-gradient57);
+      }
+
+      .st125 {
+        mask: url(#mask-21);
+      }
+
+      .st54 {
+        fill: url(#radial-gradient84);
+      }
+
+      .st126 {
+        isolation: isolate;
+      }
+
+      .st127 {
+        mask: url(#mask-43);
+      }
+
+      .st77 {
+        fill: url(#radial-gradient31);
+      }
+
+      .st128 {
+        filter: url(#luminosity-noclip19);
+      }
+
+      .st129 {
+        filter: url(#luminosity-noclip9);
+      }
+
+      .st12 {
+        fill: url(#radial-gradient54);
+      }
+
+      .st130 {
+        mask: url(#mask-28);
+      }
+
+      .st131 {
+        mask: url(#mask-42);
+      }
+
+      .st78 {
+        fill: url(#radial-gradient23);
+      }
+
+      .st132 {
+        filter: url(#luminosity-noclip28);
+      }
+
+      .st13 {
+        fill: url(#radial-gradient58);
+      }
+
+      .st133 {
+        mask: url(#mask-23);
+      }
+
+      .st14 {
+        fill: url(#radial-gradient38);
+      }
+
+      .st79 {
+        fill: url(#radial-gradient71);
+      }
+
+      .st134 {
+        filter: url(#luminosity-noclip30);
+      }
+
+      .st135 {
+        mask: url(#mask-39);
+      }
+
+      .st136 {
+        mask: url(#mask-34);
+      }
+
+      .st137 {
+        mask: url(#mask-26);
+      }
+
+      .st15 {
+        fill: url(#radial-gradient50);
+      }
+
+      .st138 {
+        filter: url(#luminosity-noclip13);
+      }
+
+      .st16 {
+        fill: url(#radial-gradient10);
+      }
+
+      .st55 {
+        fill: url(#radial-gradient60);
+      }
+
+      .st17 {
+        fill: url(#radial-gradient14);
+      }
+
+      .st18 {
+        fill: url(#radial-gradient33);
+      }
+
+      .st19 {
+        fill: url(#radial-gradient77);
+      }
+
+      .st139 {
+        filter: url(#luminosity-noclip33);
+      }
+
+      .st140 {
+        mask: url(#mask-24);
+      }
+
+      .st56 {
+        fill: url(#radial-gradient64);
+      }
+
+      .st20 {
+        fill: url(#radial-gradient5);
+      }
+
+      .st141 {
+        filter: url(#luminosity-noclip42);
+      }
+
+      .st142 {
+        opacity: .2;
+      }
+
+      .st57 {
+        fill: url(#radial-gradient68);
+      }
+
+      .st143 {
+        filter: url(#luminosity-noclip26);
+      }
+
+      .st144 {
+        filter: url(#luminosity-noclip1);
+      }
+
+      .st145 {
+        mask: url(#mask-16);
+      }
+
+      .st21 {
+        fill: url(#radial-gradient21);
+      }
+
+      .st58 {
+        fill: url(#radial-gradient32);
+      }
+
+      .st146 {
+        filter: url(#luminosity-noclip25);
+      }
+
+      .st80 {
+        fill: url(#radial-gradient11);
+      }
+
+      .st147 {
+        mask: url(#mask-32);
+      }
+
+      .st81 {
+        fill: url(#radial-gradient83);
+      }
+
+      .st148 {
+        mask: url(#mask-19);
+      }
+
+      .st59 {
+        fill: url(#radial-gradient48);
+      }
+
+      .st22 {
+        fill: url(#radial-gradient26);
+      }
+
+      .st149 {
+        filter: url(#luminosity-noclip15);
+      }
+
+      .st150 {
+        filter: url(#luminosity-noclip2);
+      }
+
+      .st151 {
+        filter: url(#luminosity-noclip8);
+      }
+
+      .st152 {
+        mask: url(#mask-33);
+      }
+
+      .st82 {
+        fill: url(#radial-gradient55);
+      }
+
+      .st153 {
+        mask: url(#mask-25);
+      }
+
+      .st23 {
+        fill: url(#radial-gradient2);
+      }
+
+      .st24 {
+        fill: url(#radial-gradient25);
+      }
+
+      .st154 {
+        mix-blend-mode: overlay;
+      }
+
+      .st60 {
+        fill: url(#radial-gradient28);
+      }
+
+      .st25 {
+        fill: url(#radial-gradient86);
+      }
+
+      .st26 {
+        fill: url(#radial-gradient81);
+      }
+
+      .st155 {
+        mask: url(#mask-29);
+      }
+
+      .st27 {
+        fill: url(#radial-gradient73);
+      }
+
+      .st28 {
+        fill: url(#radial-gradient85);
+      }
+
+      .st29 {
+        fill: url(#radial-gradient82);
+      }
+
+      .st30 {
+        fill: url(#radial-gradient42);
+      }
+
+      .st156 {
+        filter: url(#luminosity-noclip22);
+      }
+
+      .st157 {
+        mask: url(#mask-11);
+      }
+
+      .st31 {
+        fill: url(#radial-gradient30);
+      }
+
+      .st158 {
+        filter: url(#luminosity-noclip12);
+      }
+
+      .st32 {
+        fill: url(#radial-gradient61);
+      }
+
+      .st159 {
+        filter: url(#luminosity-noclip24);
+      }
+
+      .st160 {
+        filter: url(#luminosity-noclip41);
+      }
+
+      .st161 {
+        filter: url(#luminosity-noclip27);
+      }
+
+      .st162 {
+        mask: url(#mask-12);
+      }
+
+      .st163 {
+        filter: url(#luminosity-noclip3);
+      }
+
+      .st164 {
+        filter: url(#luminosity-noclip17);
+      }
+
+      .st61 {
+        fill: url(#radial-gradient36);
+      }
+
+      .st165 {
+        filter: url(#luminosity-noclip35);
+      }
+
+      .st33 {
+        fill: url(#radial-gradient69);
+      }
+
+      .st166 {
+        mask: url(#mask-22);
+      }
+
+      .st167 {
+        filter: url(#luminosity-noclip7);
+      }
+
+      .st168 {
+        filter: url(#luminosity-noclip4);
+      }
+
+      .st169 {
+        filter: url(#luminosity-noclip39);
+      }
+
+      .st170 {
+        filter: url(#luminosity-noclip21);
+      }
+
+      .st171 {
+        mask: url(#mask-4);
+      }
+
+      .st172 {
+        filter: url(#luminosity-noclip29);
+      }
+
+      .st173 {
+        filter: url(#luminosity-noclip37);
+      }
+
+      .st34 {
+        fill: url(#radial-gradient62);
+      }
+
+      .st35 {
+        fill: url(#radial-gradient74);
+      }
+
+      .st83 {
+        fill: url(#radial-gradient43);
+      }
+
+      .st36 {
+        fill: url(#radial-gradient9);
+      }
+
+      .st37 {
+        fill: url(#radial-gradient78);
+      }
+
+      .st38 {
+        fill: url(#radial-gradient37);
+      }
+
+      .st174 {
+        mask: url(#mask-14);
+      }
+
+      .st39 {
+        fill: url(#radial-gradient41);
+      }
+
+      .st62 {
+        fill: url(#radial-gradient52);
+      }
+
+      .st175 {
+        filter: url(#luminosity-noclip31);
+      }
+
+      .st84 {
+        fill: url(#radial-gradient79);
+      }
+
+      .st40 {
+        fill: url(#radial-gradient45);
+      }
+
+      .st41 {
+        fill: url(#radial-gradient17);
+      }
+
+      .st63 {
+        fill: url(#radial-gradient16);
+      }
+
+      .st85 {
+        fill: url(#radial-gradient15);
+      }
+
+      .st86 {
+        fill: url(#radial-gradient27);
+      }
+
+      .st176 {
+        mask: url(#mask-27);
+      }
+
+      .st177 {
+        mask: url(#mask-40);
+      }
+
+      .st87 {
+        fill: url(#radial-gradient67);
+      }
+
+      .st42 {
+        fill: url(#radial-gradient66);
+      }
+
+      .st64 {
+        fill: url(#radial-gradient12);
+      }
+
+      .st178 {
+        mask: url(#mask-3);
+      }
+
+      .st179 {
+        mask: url(#mask-41);
+      }
+
+      .st180 {
+        filter: url(#luminosity-noclip);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="-5886.3" cy="441.6" fx="-5886.3" fy="441.6" r="23.3" gradientTransform="translate(4963.3 3942.7) rotate(45.2)" gradientUnits="userSpaceOnUse">
+      <stop offset=".8" stop-color="#bccbd8" stop-opacity=".3"/>
+      <stop offset=".9" stop-color="#b9cad7" stop-opacity=".3"/>
+      <stop offset=".9" stop-color="#b1c6d6" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#a2c0d3" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#8db8cf" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#72adcb" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#519fc5" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#2a90be" stop-opacity="1"/>
+      <stop offset="1" stop-color="#238dbd"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient1" cx="-5888.9" cy="435.9" fx="-5859.8" fy="435.9" r="29.3" gradientTransform="translate(4963.3 3942.7) rotate(45.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".4" stop-color="#fdfefe"/>
+      <stop offset=".5" stop-color="#f6fbfd"/>
+      <stop offset=".6" stop-color="#eaf6fb"/>
+      <stop offset=".7" stop-color="#d9eef8"/>
+      <stop offset=".8" stop-color="#c3e5f4"/>
+      <stop offset=".8" stop-color="#a8d9ef"/>
+      <stop offset=".9" stop-color="#87cbe9"/>
+      <stop offset="1" stop-color="#63bbe3"/>
+      <stop offset="1" stop-color="#3aa9dc"/>
+      <stop offset="1" stop-color="#39a9dc"/>
+    </radialGradient>
+    <filter id="luminosity-noclip" x="476" y="54" width="47" height="46" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="476" y="54" width="47" height="46" maskUnits="userSpaceOnUse">
+      <g class="st180">
+        <image width="47" height="46" transform="translate(476 54)" xlink:href="Dimitri-06-1.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient2" cx="-5902.2" cy="446.5" fx="-5902.2" fy="446.5" r="5.7" gradientTransform="translate(4963.3 3942.7) rotate(45.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".3" stop-color="#fff"/>
+      <stop offset=".4" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset=".4" stop-color="#fff" stop-opacity=".6"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".5"/>
+      <stop offset=".6" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset=".6" stop-color="#fff" stop-opacity=".2"/>
+      <stop offset=".7" stop-color="#fff" stop-opacity=".1"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".9" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="luminosity-noclip1" x="476" y="54" width="47" height="46" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="476" y="54" width="47" height="46" maskUnits="userSpaceOnUse">
+      <g class="st144">
+        <image width="47" height="46" transform="translate(476 54)" xlink:href="Dimitri-06-4.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient3" cx="-5758.5" cy="7064.5" fx="-5758.5" fy="7064.5" r="11.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient4" cx="-5759.8" cy="7061.7" fx="-5745.6" fy="7061.7" r="14.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip2" x="737" y="100" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-2" x="737" y="100" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st150">
+        <image width="18" height="27" transform="translate(737 100)" xlink:href="Dimitri-06-5.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient5" cx="-5766.3" cy="7066.9" fx="-5766.3" fy="7066.9" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip3" x="737" y="100" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-3" x="737" y="100" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st163">
+        <image width="18" height="27" transform="translate(737 100)" xlink:href="Dimitri-06-8.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient6" cx="-5766.3" cy="7066.9" fx="-5766.3" fy="7066.9" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient7" cx="-6122.2" cy="7060.2" fx="-6122.2" fy="7060.2" r="11.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient8" cx="-6123.5" cy="7057.4" fx="-6109.3" fy="7057.4" r="14.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip4" x="1101" y="104" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-4" x="1101" y="104" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st168">
+        <image width="18" height="27" transform="translate(1101 104)" xlink:href="Dimitri-06-9.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient9" cx="-6130" cy="7062.6" fx="-6130" fy="7062.6" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip5" x="1101" y="104" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-5" x="1101" y="104" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st118">
+        <image width="18" height="27" transform="translate(1101 104)" xlink:href="Dimitri-06-12.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient10" cx="-6130" cy="7062.6" fx="-6130" fy="7062.6" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient11" cx="-6222.6" cy="7113.3" fx="-6222.6" fy="7113.3" r="11.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient12" cx="-6223.9" cy="7110.5" fx="-6209.7" fy="7110.5" r="14.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip6" x="1201" y="51" width="19" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-6" x="1201" y="51" width="19" height="27" maskUnits="userSpaceOnUse">
+      <g class="st104">
+        <image width="19" height="27" transform="translate(1201 51)" xlink:href="Dimitri-06-13.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient13" cx="-6230.3" cy="7115.7" fx="-6230.3" fy="7115.7" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip7" x="1201" y="51" width="19" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-7" x="1201" y="51" width="19" height="27" maskUnits="userSpaceOnUse">
+      <g class="st167">
+        <image width="19" height="27" transform="translate(1201 51)" xlink:href="Dimitri-06-16.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient14" cx="-6230.3" cy="7115.7" fx="-6230.3" fy="7115.7" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient15" cx="-5595.3" cy="7010.8" fx="-5595.3" fy="7010.8" r="11.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient16" cx="-5596.6" cy="7008" fx="-5582.4" fy="7008" r="14.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip8" x="574" y="153" width="18" height="28" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-8" x="574" y="153" width="18" height="28" maskUnits="userSpaceOnUse">
+      <g class="st151">
+        <image width="18" height="28" transform="translate(574 153)" xlink:href="Dimitri-06-17.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient17" cx="-5603.1" cy="7013.2" fx="-5603.1" fy="7013.2" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip9" x="574" y="153" width="18" height="28" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-9" x="574" y="153" width="18" height="28" maskUnits="userSpaceOnUse">
+      <g class="st129">
+        <image width="18" height="28" transform="translate(574 153)" xlink:href="Dimitri-06-20.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient18" cx="-5603.1" cy="7013.2" fx="-5603.1" fy="7013.2" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient19" cx="-5264.2" cy="7095.1" fx="-5264.2" fy="7095.1" r="11.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient20" cx="-5265.5" cy="7092.3" fx="-5251.3" fy="7092.3" r="14.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip10" x="243" y="69" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-10" x="243" y="69" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st112">
+        <image width="18" height="27" transform="translate(243 69)" xlink:href="Dimitri-06-21.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient21" cx="-5271.9" cy="7097.5" fx="-5271.9" fy="7097.5" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip11" x="243" y="69" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-11" x="243" y="69" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st97">
+        <image width="18" height="27" transform="translate(243 69)" xlink:href="Dimitri-06-24.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient22" cx="-5271.9" cy="7097.5" fx="-5271.9" fy="7097.5" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient23" cx="-5909.5" cy="7065.1" fx="-5909.5" fy="7065.1" r="11.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient24" cx="-5910.8" cy="7062.3" fx="-5896.6" fy="7062.3" r="14.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip12" x="888" y="99" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-12" x="888" y="99" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st158">
+        <image width="18" height="27" transform="translate(888 99)" xlink:href="Dimitri-06-25.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient25" cx="-5917.3" cy="7067.5" fx="-5917.3" fy="7067.5" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip13" x="888" y="99" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-13" x="888" y="99" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st138">
+        <image width="18" height="27" transform="translate(888 99)" xlink:href="Dimitri-06-28.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient26" cx="-5917.3" cy="7067.5" fx="-5917.3" fy="7067.5" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient27" cx="-5428.2" cy="7055.5" fx="-5428.2" fy="7055.5" r="11.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient28" cx="-5429.5" cy="7052.7" fx="-5415.3" fy="7052.7" r="14.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip14" x="407" y="109" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-14" x="407" y="109" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st92">
+        <image width="18" height="27" transform="translate(407 109)" xlink:href="Dimitri-06-29.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient29" cx="-5436" cy="7057.9" fx="-5436" fy="7057.9" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip15" x="407" y="109" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-15" x="407" y="109" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st149">
+        <image width="18" height="27" transform="translate(407 109)" xlink:href="Dimitri-06-32.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient30" cx="-5436" cy="7057.9" fx="-5436" fy="7057.9" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient31" cx="-5062.4" cy="6999.1" fx="-5062.4" fy="6999.1" r="11.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient32" cx="-5063.7" cy="6996.3" fx="-5049.5" fy="6996.3" r="14.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip16" x="41" y="165" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-16" x="41" y="165" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st110">
+        <image width="18" height="27" transform="translate(41 165)" xlink:href="Dimitri-06-33.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient33" cx="-5070.2" cy="7001.5" fx="-5070.2" fy="7001.5" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip17" x="41" y="165" width="18" height="27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-17" x="41" y="165" width="18" height="27" maskUnits="userSpaceOnUse">
+      <g class="st164">
+        <image width="18" height="27" transform="translate(41 165)" xlink:href="Dimitri-06-36.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient34" cx="-5070.2" cy="7001.5" fx="-5070.2" fy="7001.5" r="2.8" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient35" cx="-5763" cy="1364.5" fx="-5763" fy="1364.5" r="23.3" gradientTransform="translate(5335.8 2886.7) rotate(41.9)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient36" cx="-5765.7" cy="1358.8" fx="-5736.5" fy="1358.8" r="29.3" gradientTransform="translate(5335.8 2886.7) rotate(41.9)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip18" x="111" y="28" width="46" height="48" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-18" x="111" y="28" width="46" height="48" maskUnits="userSpaceOnUse">
+      <g class="st93">
+        <image width="46" height="48" transform="translate(111 28)" xlink:href="Dimitri-06-37.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient37" cx="-5778.9" cy="1369.4" fx="-5778.9" fy="1369.4" r="5.7" gradientTransform="translate(5335.8 2886.7) rotate(41.9)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip19" x="111" y="28" width="46" height="48" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-19" x="111" y="28" width="46" height="48" maskUnits="userSpaceOnUse">
+      <g class="st128">
+        <image width="46" height="48" transform="translate(111 28)" xlink:href="Dimitri-06-40.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient38" cx="-5778.9" cy="1369.4" fx="-5778.9" fy="1369.4" r="5.7" gradientTransform="translate(5335.8 2886.7) rotate(41.9)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient39" cx="-8250.6" cy="4145.3" fx="-8250.6" fy="4145.3" r="23.3" gradientTransform="translate(1236.7 9368.5) rotate(114.9)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient40" cx="-8253.3" cy="4139.6" fx="-8224.1" fy="4139.6" r="29.3" gradientTransform="translate(1236.7 9368.5) rotate(114.9)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip20" x="927" y="114" width="50" height="42" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-20" x="927" y="114" width="50" height="42" maskUnits="userSpaceOnUse">
+      <g class="st94">
+        <image width="50" height="42" transform="translate(927 114)" xlink:href="Dimitri-06-41.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient41" cx="-8266.6" cy="4150.2" fx="-8266.6" fy="4150.2" r="5.7" gradientTransform="translate(1236.7 9368.5) rotate(114.9)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip21" x="927" y="114" width="50" height="42" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-21" x="927" y="114" width="50" height="42" maskUnits="userSpaceOnUse">
+      <g class="st170">
+        <image width="50" height="42" transform="translate(927 114)" xlink:href="Dimitri-06-44.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient42" cx="-8266.6" cy="4150.2" fx="-8266.6" fy="4150.2" r="5.7" gradientTransform="translate(1236.7 9368.5) rotate(114.9)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient43" cx="-5359.8" cy="7131.4" fx="-5359.8" fy="7131.4" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient44" cx="-5360.4" cy="7130.1" fx="-5353.7" fy="7130.1" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip22" x="340" y="39" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-22" x="340" y="39" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st156">
+        <image width="11" height="15" transform="translate(340 39)" xlink:href="Dimitri-06-45.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient45" cx="-5363.5" cy="7132.5" fx="-5363.5" fy="7132.5" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip23" x="340" y="39" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-23" x="340" y="39" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st106">
+        <image width="11" height="15" transform="translate(340 39)" xlink:href="Dimitri-06-48.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient46" cx="-5363.5" cy="7132.5" fx="-5363.5" fy="7132.5" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient47" cx="-5666.1" cy="7119.6" fx="-5666.1" fy="7119.6" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient48" cx="-5666.7" cy="7118.3" fx="-5660" fy="7118.3" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip24" x="646" y="51" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-24" x="646" y="51" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st159">
+        <image width="11" height="15" transform="translate(646 51)" xlink:href="Dimitri-06-49.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient49" cx="-5669.8" cy="7120.7" fx="-5669.8" fy="7120.7" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip25" x="646" y="51" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-25" x="646" y="51" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st146">
+        <image width="11" height="15" transform="translate(646 51)" xlink:href="Dimitri-06-52.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient50" cx="-5669.8" cy="7120.7" fx="-5669.8" fy="7120.7" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient51" cx="-6248" cy="7034.7" fx="-6248" fy="7034.7" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient52" cx="-6248.7" cy="7033.4" fx="-6241.9" fy="7033.4" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip26" x="1228" y="136" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-26" x="1228" y="136" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st143">
+        <image width="11" height="15" transform="translate(1228 136)" xlink:href="Dimitri-06-53.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient53" cx="-6251.7" cy="7035.8" fx="-6251.7" fy="7035.8" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip27" x="1228" y="136" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-27" x="1228" y="136" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st161">
+        <image width="11" height="15" transform="translate(1228 136)" xlink:href="Dimitri-06-56.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient54" cx="-6251.7" cy="7035.8" fx="-6251.7" fy="7035.8" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient55" cx="-5233" cy="6966.6" fx="-5233" fy="6966.6" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient56" cx="-5233.6" cy="6965.3" fx="-5226.9" fy="6965.3" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip28" x="213" y="204" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-28" x="213" y="204" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st132">
+        <image width="11" height="15" transform="translate(213 204)" xlink:href="Dimitri-06-57.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient57" cx="-5236.7" cy="6967.7" fx="-5236.7" fy="6967.7" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip29" x="213" y="204" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-29" x="213" y="204" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st172">
+        <image width="11" height="15" transform="translate(213 204)" xlink:href="Dimitri-06-60.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient58" cx="-5236.7" cy="6967.7" fx="-5236.7" fy="6967.7" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient59" cx="-5863.6" cy="7065.3" fx="-5863.6" fy="7065.3" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient60" cx="-5864.2" cy="7064" fx="-5857.5" fy="7064" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip30" x="844" y="105" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-30" x="844" y="105" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st134">
+        <image width="11" height="15" transform="translate(844 105)" xlink:href="Dimitri-06-61.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient61" cx="-5867.2" cy="7066.5" fx="-5867.2" fy="7066.5" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip31" x="844" y="105" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-31" x="844" y="105" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st175">
+        <image width="11" height="15" transform="translate(844 105)" xlink:href="Dimitri-06-64.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient62" cx="-5867.2" cy="7066.5" fx="-5867.2" fy="7066.5" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient63" cx="-5500.9" cy="6981.5" fx="-5500.9" fy="6981.5" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient64" cx="-5501.5" cy="6980.2" fx="-5494.8" fy="6980.2" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip32" x="481" y="189" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-32" x="481" y="189" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st105">
+        <image width="11" height="15" transform="translate(481 189)" xlink:href="Dimitri-06-65.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient65" cx="-5504.5" cy="6982.7" fx="-5504.5" fy="6982.7" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip33" x="481" y="189" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-33" x="481" y="189" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st139">
+        <image width="11" height="15" transform="translate(481 189)" xlink:href="Dimitri-06-68.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient66" cx="-5504.5" cy="6982.7" fx="-5504.5" fy="6982.7" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient67" cx="-5710.6" cy="7006.6" fx="-5710.6" fy="7006.6" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient68" cx="-5711.2" cy="7005.3" fx="-5704.5" fy="7005.3" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip34" x="691" y="164" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-34" x="691" y="164" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st115">
+        <image width="11" height="15" transform="translate(691 164)" xlink:href="Dimitri-06-69.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient69" cx="-5714.3" cy="7007.7" fx="-5714.3" fy="7007.7" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip35" x="691" y="164" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-35" x="691" y="164" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st165">
+        <image width="11" height="15" transform="translate(691 164)" xlink:href="Dimitri-06-72.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient70" cx="-5714.3" cy="7007.7" fx="-5714.3" fy="7007.7" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient71" cx="-5381.9" cy="6984.6" fx="-5381.9" fy="6984.6" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient72" cx="-5382.5" cy="6983.3" fx="-5375.8" fy="6983.3" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip36" x="362" y="186" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-36" x="362" y="186" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st98">
+        <image width="11" height="15" transform="translate(362 186)" xlink:href="Dimitri-06-73.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient73" cx="-5385.6" cy="6985.8" fx="-5385.6" fy="6985.8" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip37" x="362" y="186" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-37" x="362" y="186" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st173">
+        <image width="11" height="15" transform="translate(362 186)" xlink:href="Dimitri-06-76.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient74" cx="-5385.6" cy="6985.8" fx="-5385.6" fy="6985.8" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient75" cx="-5817.5" cy="6968.2" fx="-5817.5" fy="6968.2" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient76" cx="-5818.1" cy="6966.9" fx="-5811.4" fy="6966.9" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip38" x="798" y="202" width="11" height="16" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-38" x="798" y="202" width="11" height="16" maskUnits="userSpaceOnUse">
+      <g class="st99">
+        <image width="11" height="16" transform="translate(798 202)" xlink:href="Dimitri-06-77.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient77" cx="-5821.2" cy="6969.3" fx="-5821.2" fy="6969.3" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip39" x="798" y="202" width="11" height="16" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-39" x="798" y="202" width="11" height="16" maskUnits="userSpaceOnUse">
+      <g class="st169">
+        <image width="11" height="16" transform="translate(798 202)" xlink:href="Dimitri-06-80.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient78" cx="-5821.2" cy="6969.3" fx="-5821.2" fy="6969.3" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient79" cx="-5158.9" cy="7061.6" fx="-5158.9" fy="7061.6" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient80" cx="-5159.5" cy="7060.3" fx="-5152.8" fy="7060.3" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip40" x="139" y="109" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-40" x="139" y="109" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st89">
+        <image width="11" height="15" transform="translate(139 109)" xlink:href="Dimitri-06-81.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient81" cx="-5162.6" cy="7062.8" fx="-5162.6" fy="7062.8" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip41" x="139" y="109" width="11" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-41" x="139" y="109" width="11" height="15" maskUnits="userSpaceOnUse">
+      <g class="st160">
+        <image width="11" height="15" transform="translate(139 109)" xlink:href="Dimitri-06-84.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient82" cx="-5162.6" cy="7062.8" fx="-5162.6" fy="7062.8" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <radialGradient id="radial-gradient83" cx="-6042.9" cy="7102" fx="-6042.9" fy="7102" r="5.4" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient84" cx="-6043.5" cy="7100.7" fx="-6036.8" fy="7100.7" r="6.7" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient1"/>
+    <filter id="luminosity-noclip42" x="1023" y="68" width="11" height="16" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-42" x="1023" y="68" width="11" height="16" maskUnits="userSpaceOnUse">
+      <g class="st141">
+        <image width="11" height="16" transform="translate(1023 68)" xlink:href="Dimitri-06-85.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient85" cx="-6046.5" cy="7103.1" fx="-6046.5" fy="7103.1" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+    <filter id="luminosity-noclip43" x="1023" y="68" width="11" height="16" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-43" x="1023" y="68" width="11" height="16" maskUnits="userSpaceOnUse">
+      <g class="st95">
+        <image width="11" height="16" transform="translate(1023 68)" xlink:href="Dimitri-06-88.png"/>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient86" cx="-6046.5" cy="7103.1" fx="-6046.5" fy="7103.1" r="1.3" gradientTransform="translate(-5016.2 7178) rotate(-180)" xlink:href="#radial-gradient2"/>
+  </defs>
+  <g class="st126">
+    <g id="Calque_1">
+      <g class="st154">
+        <g class="st124">
+          <g>
+            <path class="st69" d="M485,61.7c9.1-9.1,23.9-9,32.9.1,9.1,9.1,9,23.9-.1,32.9-9.1,9.1-23.9,9-32.9-.1-9.1-9.1-9-23.9.1-32.9Z"/>
+            <path class="st47" d="M485.5,61.2c9.1-9.1,23.4-8.6,32.5.6,9.1,9.1,9.5,23.4.4,32.5-9.1,9.1-23.9,9-32.9-.1-9.1-9.1-9-23.9.1-32.9Z"/>
+            <g class="st114">
+              <g class="st109">
+                <path class="st107" d="M491.8,69c7.9-7.8,20-8.7,28.9-2.7-.8-1.2-1.7-2.3-2.8-3.4-8.9-8.9-23.3-9-32.3-.1-8.9,8.9-9,23.3-.1,32.3,1.1,1.1,2.2,2,3.4,2.8-6-8.9-5-21,2.9-28.9Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="86" height="109" transform="translate(469 26)" xlink:href="Dimitri-06-2.png"/>
+            </g>
+            <path class="st23" d="M482.7,66.4c-2.2,2.2-2.2,5.8,0,8,2.2,2.2,5.8,2.2,8,0,2.2-2.2,2.2-5.8,0-8-2.2-2.2-5.8-2.2-8,0Z"/>
+            <g class="st142">
+              <image width="108" height="87" transform="translate(444 46)" xlink:href="Dimitri-06-3.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st96">
+                <path class="st107" d="M491.8,69c7.9-7.8,20-8.7,28.9-2.7-.8-1.2-1.7-2.3-2.8-3.4-8.9-8.9-23.3-9-32.3-.1-8.9,8.9-9,23.3-.1,32.3,1.1,1.1,2.2,2,3.4,2.8-6-8.9-5-21,2.9-28.9Z"/>
+              </g>
+            </g>
+            <path class="st23" d="M482.7,66.4c-2.2,2.2-2.2,5.8,0,8,2.2,2.2,5.8,2.2,8,0,2.2-2.2,2.2-5.8,0-8-2.2-2.2-5.8-2.2-8,0Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st67" d="M753.6,113.5c0,6.3-5.1,11.4-11.4,11.4s-11.4-5.1-11.4-11.4,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <path class="st44" d="M753.6,113.9c0,6.3-5.1,11-11.4,11s-11.4-4.8-11.4-11,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <g class="st114">
+              <g class="st121">
+                <path class="st107" d="M748.7,113.4c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="84" height="87" transform="translate(697 72)" xlink:href="Dimitri-06-6.png"/>
+            </g>
+            <path class="st20" d="M752.8,111.1c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+            <g class="st142">
+              <image width="89" height="84" transform="translate(696 67)" xlink:href="Dimitri-06-7.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st178">
+                <path class="st107" d="M748.7,113.4c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <path class="st9" d="M752.8,111.1c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st75" d="M1117.4,117.9c0,6.3-5.1,11.4-11.4,11.4s-11.4-5.1-11.4-11.4,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <path class="st50" d="M1117.4,118.2c0,6.3-5.1,11-11.4,11s-11.4-4.8-11.4-11,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <g class="st114">
+              <g class="st171">
+                <path class="st107" d="M1112.5,117.7c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="85" height="87" transform="translate(1060 76)" xlink:href="Dimitri-06-10.png"/>
+            </g>
+            <path class="st36" d="M1116.5,115.5c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+            <g class="st142">
+              <image width="88" height="83" transform="translate(1060 72)" xlink:href="Dimitri-06-11.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st90">
+                <path class="st107" d="M1112.5,117.7c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <path class="st16" d="M1116.5,115.5c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st80" d="M1217.7,64.7c0,6.3-5.1,11.4-11.4,11.4s-11.4-5.1-11.4-11.4,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <path class="st64" d="M1217.7,65.1c0,6.3-5.1,11-11.4,11s-11.4-4.8-11.4-11,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <g class="st114">
+              <g class="st101">
+                <path class="st107" d="M1212.8,64.5c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="84" height="87" transform="translate(1161 23)" xlink:href="Dimitri-06-14.png"/>
+            </g>
+            <path class="st8" d="M1216.9,62.3c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+            <g class="st142">
+              <image width="88" height="83" transform="translate(1161 19)" xlink:href="Dimitri-06-15.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st102">
+                <path class="st107" d="M1212.8,64.5c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <path class="st17" d="M1216.9,62.3c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st85" d="M590.5,167.2c0,6.3-5.1,11.4-11.4,11.4s-11.4-5.1-11.4-11.4,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <path class="st63" d="M590.5,167.6c0,6.3-5.1,11-11.4,11s-11.4-4.8-11.4-11,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <g class="st114">
+              <g class="st119">
+                <path class="st107" d="M585.6,167.1c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="84" height="88" transform="translate(534 125)" xlink:href="Dimitri-06-18.png"/>
+            </g>
+            <path class="st41" d="M589.6,164.9c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+            <g class="st142">
+              <image width="88" height="83" transform="translate(533 121)" xlink:href="Dimitri-06-19.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st123">
+                <path class="st107" d="M585.6,167.1c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <path class="st10" d="M589.6,164.9c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st66" d="M259.3,82.9c0,6.3-5.1,11.4-11.4,11.4s-11.4-5.1-11.4-11.4,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <path class="st43" d="M259.3,83.3c0,6.3-5.1,11-11.4,11s-11.4-4.8-11.4-11,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <g class="st114">
+              <g class="st100">
+                <path class="st107" d="M254.4,82.8c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="85" height="87" transform="translate(202 41)" xlink:href="Dimitri-06-22.png"/>
+            </g>
+            <path class="st21" d="M258.5,80.5c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+            <g class="st142">
+              <image width="88" height="83" transform="translate(202 37)" xlink:href="Dimitri-06-23.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st157">
+                <path class="st107" d="M254.4,82.8c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <path class="st4" d="M258.5,80.5c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st78" d="M904.6,112.9c0,6.3-5.1,11.4-11.4,11.4s-11.4-5.1-11.4-11.4,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <path class="st49" d="M904.6,113.3c0,6.3-5.1,11-11.4,11s-11.4-4.8-11.4-11,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <g class="st114">
+              <g class="st162">
+                <path class="st107" d="M899.7,112.8c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="84" height="87" transform="translate(848 71)" xlink:href="Dimitri-06-26.png"/>
+            </g>
+            <path class="st24" d="M903.8,110.6c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+            <g class="st142">
+              <image width="89" height="83" transform="translate(847 67)" xlink:href="Dimitri-06-27.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st91">
+                <path class="st107" d="M899.7,112.8c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <path class="st22" d="M903.8,110.6c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st86" d="M423.4,122.5c0,6.3-5.1,11.4-11.4,11.4s-11.4-5.1-11.4-11.4,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <path class="st60" d="M423.4,122.9c0,6.3-5.1,11-11.4,11s-11.4-4.8-11.4-11,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <g class="st114">
+              <g class="st174">
+                <path class="st107" d="M418.5,122.4c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="85" height="87" transform="translate(366 81)" xlink:href="Dimitri-06-30.png"/>
+            </g>
+            <path class="st2" d="M422.5,120.2c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+            <g class="st142">
+              <image width="88" height="84" transform="translate(366 76)" xlink:href="Dimitri-06-31.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st88">
+                <path class="st107" d="M418.5,122.4c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <path class="st31" d="M422.5,120.2c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st77" d="M57.6,178.9c0,6.3-5.1,11.4-11.4,11.4s-11.4-5.1-11.4-11.4,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <path class="st58" d="M57.6,179.3c0,6.3-5.1,11-11.4,11s-11.4-4.8-11.4-11,5.1-11.4,11.4-11.4,11.4,5.1,11.4,11.4Z"/>
+            <g class="st114">
+              <g class="st145">
+                <path class="st107" d="M52.7,178.8c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="84" height="87" transform="translate(1 137)" xlink:href="Dimitri-06-34.png"/>
+            </g>
+            <path class="st18" d="M56.7,176.5c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+            <g class="st142">
+              <image width="88" height="83" transform="translate(0 133)" xlink:href="Dimitri-06-35.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st108">
+                <path class="st107" d="M52.7,178.8c0,5.4-3.9,9.9-9,10.9.7.1,1.4.2,2.1.2,6.1,0,11.1-5,11.1-11.1s-5-11.1-11.1-11.1-1.4,0-2.1.2c5.1,1,9,5.5,9,10.9Z"/>
+              </g>
+            </g>
+            <path class="st7" d="M56.7,176.5c0-1.5-1.2-2.8-2.8-2.8s-2.8,1.2-2.8,2.8,1.2,2.8,2.8,2.8,2.8-1.2,2.8-2.8Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st74" d="M118.4,37.5c8.6-9.6,23.3-10.4,32.9-1.8,9.6,8.6,10.4,23.3,1.8,32.9-8.6,9.6-23.3,10.4-32.9,1.8-9.6-8.6-10.4-23.3-1.8-32.9Z"/>
+            <path class="st61" d="M118.9,36.9c8.6-9.6,22.9-9.9,32.5-1.3,9.6,8.6,10.8,22.8,2.2,32.4-8.6,9.6-23.3,10.4-32.9,1.8-9.6-8.6-10.4-23.3-1.8-32.9Z"/>
+            <g class="st114">
+              <g class="st103">
+                <path class="st107" d="M125.6,44.4c7.4-8.3,19.5-9.8,28.7-4.3-.9-1.2-1.9-2.2-3-3.2-9.4-8.4-23.8-7.6-32.2,1.7-8.4,9.4-7.6,23.8,1.7,32.2,1.1,1,2.3,1.9,3.5,2.6-6.5-8.5-6.2-20.7,1.2-29Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="84" height="109" transform="translate(105)" xlink:href="Dimitri-06-38.png"/>
+            </g>
+            <path class="st38" d="M116.4,42.3c-2.1,2.3-1.9,5.9.4,8,2.3,2.1,5.9,1.9,8-.4,2.1-2.3,1.9-5.9-.4-8-2.3-2.1-5.9-1.9-8,.4Z"/>
+            <g class="st142">
+              <image width="109" height="86" transform="translate(78 22)" xlink:href="Dimitri-06-39.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st148">
+                <path class="st107" d="M125.6,44.4c7.4-8.3,19.5-9.8,28.7-4.3-.9-1.2-1.9-2.2-3-3.2-9.4-8.4-23.8-7.6-32.2,1.7-8.4,9.4-7.6,23.8,1.7,32.2,1.1,1,2.3,1.9,3.5,2.6-6.5-8.5-6.2-20.7,1.2-29Z"/>
+              </g>
+            </g>
+            <path class="st14" d="M116.4,42.3c-2.1,2.3-1.9,5.9.4,8,2.3,2.1,5.9,1.9,8-.4,2.1-2.3,1.9-5.9-.4-8-2.3-2.1-5.9-1.9-8,.4Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st71" d="M961.8,118c11.7,5.4,16.7,19.3,11.3,30.9-5.4,11.7-19.3,16.7-30.9,11.3-11.7-5.4-16.7-19.3-11.3-30.9,5.4-11.7,19.3-16.7,30.9-11.3Z"/>
+            <path class="st51" d="M962.5,118.4c11.7,5.4,16.1,19,10.7,30.7-5.4,11.7-18.7,17-30.3,11.6-11.7-5.4-16.7-19.3-11.3-30.9,5.4-11.7,19.3-16.7,30.9-11.3Z"/>
+            <g class="st114">
+              <g class="st116">
+                <path class="st107" d="M957.3,127c10.1,4.7,15.1,15.8,12.5,26.2.8-1.2,1.6-2.4,2.2-3.8,5.3-11.4.3-25-11.1-30.3-11.4-5.3-25-.3-30.3,11.1-.6,1.4-1.1,2.7-1.5,4.1,6.3-8.7,18-12,28.1-7.3Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="109" height="86" transform="translate(898 107)" xlink:href="Dimitri-06-42.png"/>
+            </g>
+            <path class="st39" d="M956.7,117.5c-2.8-1.3-6.2,0-7.5,2.7-1.3,2.8,0,6.2,2.7,7.5,2.8,1.3,6.2,0,7.5-2.7,1.3-2.8,0-6.2-2.7-7.5Z"/>
+            <g class="st142">
+              <image width="85" height="110" transform="translate(897 84)" xlink:href="Dimitri-06-43.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st125">
+                <path class="st107" d="M957.3,127c10.1,4.7,15.1,15.8,12.5,26.2.8-1.2,1.6-2.4,2.2-3.8,5.3-11.4.3-25-11.1-30.3-11.4-5.3-25-.3-30.3,11.1-.6,1.4-1.1,2.7-1.5,4.1,6.3-8.7,18-12,28.1-7.3Z"/>
+              </g>
+            </g>
+            <path class="st30" d="M956.7,117.5c-2.8-1.3-6.2,0-7.5,2.7-1.3,2.8,0,6.2,2.7,7.5,2.8,1.3,6.2,0,7.5-2.7,1.3-2.8,0-6.2-2.7-7.5Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st83" d="M349,46.6c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st46" d="M349,46.8c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st166">
+                <path class="st107" d="M346.7,46.5c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="79" transform="translate(303 8)" xlink:href="Dimitri-06-46.png"/>
+            </g>
+            <path class="st40" d="M348.6,45.5c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+            <g class="st142">
+              <image width="80" height="77" transform="translate(303 6)" xlink:href="Dimitri-06-47.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st133">
+                <path class="st107" d="M346.7,46.5c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <path class="st3" d="M348.6,45.5c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st76" d="M655.3,58.4c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st59" d="M655.3,58.6c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st140">
+                <path class="st107" d="M653,58.4c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="80" transform="translate(609 19)" xlink:href="Dimitri-06-50.png"/>
+            </g>
+            <path class="st1" d="M654.9,57.3c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+            <g class="st142">
+              <image width="80" height="78" transform="translate(609 17)" xlink:href="Dimitri-06-51.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st153">
+                <path class="st107" d="M653,58.4c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <path class="st15" d="M654.9,57.3c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st73" d="M1237.2,143.4c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st62" d="M1237.2,143.5c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st137">
+                <path class="st107" d="M1234.9,143.3c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="80" transform="translate(1191 104)" xlink:href="Dimitri-06-54.png"/>
+            </g>
+            <path class="st5" d="M1236.8,142.2c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+            <g class="st142">
+              <image width="80" height="78" transform="translate(1191 102)" xlink:href="Dimitri-06-55.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st176">
+                <path class="st107" d="M1234.9,143.3c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <path class="st12" d="M1236.8,142.2c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st82" d="M222.1,211.5c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st52" d="M222.1,211.6c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st130">
+                <path class="st107" d="M219.8,211.4c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="80" transform="translate(176 172)" xlink:href="Dimitri-06-58.png"/>
+            </g>
+            <path class="st11" d="M221.7,210.3c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+            <g class="st142">
+              <image width="80" height="78" transform="translate(176 170)" xlink:href="Dimitri-06-59.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st155">
+                <path class="st107" d="M219.8,211.4c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <path class="st13" d="M221.7,210.3c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st72" d="M852.7,112.7c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st55" d="M852.7,112.9c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st111">
+                <path class="st107" d="M850.4,112.6c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="79" transform="translate(807 74)" xlink:href="Dimitri-06-62.png"/>
+            </g>
+            <path class="st32" d="M852.3,111.6c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+            <g class="st142">
+              <image width="81" height="78" transform="translate(806 72)" xlink:href="Dimitri-06-63.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st122">
+                <path class="st107" d="M850.4,112.6c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <path class="st34" d="M852.3,111.6c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st68" d="M490,196.5c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st56" d="M490,196.7c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st147">
+                <path class="st107" d="M487.7,196.4c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="80" transform="translate(444 157)" xlink:href="Dimitri-06-66.png"/>
+            </g>
+            <path class="st6" d="M489.6,195.4c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+            <g class="st142">
+              <image width="80" height="78" transform="translate(444 155)" xlink:href="Dimitri-06-67.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st152">
+                <path class="st107" d="M487.7,196.4c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <path class="st42" d="M489.6,195.4c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st87" d="M699.7,171.5c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st57" d="M699.7,171.6c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st136">
+                <path class="st107" d="M697.4,171.4c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="80" transform="translate(654 132)" xlink:href="Dimitri-06-70.png"/>
+            </g>
+            <path class="st33" d="M699.4,170.3c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+            <g class="st142">
+              <image width="81" height="78" transform="translate(653 130)" xlink:href="Dimitri-06-71.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st65">
+                <path class="st107" d="M697.4,171.4c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <path class="st0" d="M699.4,170.3c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st79" d="M371,193.4c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st53" d="M371,193.6c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st120">
+                <path class="st107" d="M368.7,193.3c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="80" transform="translate(325 154)" xlink:href="Dimitri-06-74.png"/>
+            </g>
+            <path class="st27" d="M370.6,192.3c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+            <g class="st142">
+              <image width="80" height="78" transform="translate(325 152)" xlink:href="Dimitri-06-75.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st113">
+                <path class="st107" d="M368.7,193.3c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <path class="st35" d="M370.6,192.3c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st70" d="M806.7,209.8c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st48" d="M806.7,210c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st117">
+                <path class="st107" d="M804.4,209.8c0,2.6-1.8,4.7-4.2,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.2,2.6,4.2,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="80" transform="translate(761 171)" xlink:href="Dimitri-06-78.png"/>
+            </g>
+            <path class="st19" d="M806.3,208.7c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+            <g class="st142">
+              <image width="81" height="78" transform="translate(760 169)" xlink:href="Dimitri-06-79.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st135">
+                <path class="st107" d="M804.4,209.8c0,2.6-1.8,4.7-4.2,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.2,2.6,4.2,5.2Z"/>
+              </g>
+            </g>
+            <path class="st37" d="M806.3,208.7c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st84" d="M148.1,116.4c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st45" d="M148.1,116.6c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st177">
+                <path class="st107" d="M145.7,116.3c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="80" transform="translate(102 77)" xlink:href="Dimitri-06-82.png"/>
+            </g>
+            <path class="st26" d="M147.7,115.3c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+            <g class="st142">
+              <image width="80" height="78" transform="translate(102 75)" xlink:href="Dimitri-06-83.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st179">
+                <path class="st107" d="M145.7,116.3c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <path class="st29" d="M147.7,115.3c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3,1.3.6,1.3,1.3,1.3,1.3-.6,1.3-1.3Z"/>
+          </g>
+        </g>
+        <g class="st124">
+          <g>
+            <path class="st81" d="M1032,76c0,3-2.4,5.4-5.4,5.4s-5.4-2.4-5.4-5.4,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <path class="st54" d="M1032,76.2c0,3-2.4,5.2-5.4,5.2s-5.4-2.3-5.4-5.2,2.4-5.4,5.4-5.4,5.4,2.4,5.4,5.4Z"/>
+            <g class="st114">
+              <g class="st131">
+                <path class="st107" d="M1029.7,75.9c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <g class="st142">
+              <image width="78" height="80" transform="translate(986 37)" xlink:href="Dimitri-06-86.png"/>
+            </g>
+            <circle class="st28" cx="1030.3" cy="74.9" r="1.3"/>
+            <g class="st142">
+              <image width="80" height="78" transform="translate(986 35)" xlink:href="Dimitri-06-87.png"/>
+            </g>
+          </g>
+          <g>
+            <g class="st142">
+              <g class="st127">
+                <path class="st107" d="M1029.7,75.9c0,2.6-1.8,4.7-4.3,5.2.3,0,.7,0,1,0,2.9,0,5.3-2.4,5.3-5.3s-2.4-5.3-5.3-5.3-.7,0-1,0c2.4.5,4.3,2.6,4.3,5.2Z"/>
+              </g>
+            </g>
+            <circle class="st25" cx="1030.3" cy="74.9" r="1.3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

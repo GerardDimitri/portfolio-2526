@@ -1,0 +1,17 @@
+{
+  "wp-content/themes/theme-portfolio/assets/css/styles.scss": {
+    "file": "assets/scss-tn0RQdqM.css",
+    "src": "wp-content/themes/theme-portfolio/assets/css/styles.scss",
+    "isEntry": true,
+    "name": "scss",
+    "names": [
+      "scss.css"
+    ]
+  },
+  "wp-content/themes/theme-portfolio/assets/js/main.js": {
+    "file": "assets/js-BhB4YB1w.js",
+    "name": "js",
+    "src": "wp-content/themes/theme-portfolio/assets/js/main.js",
+    "isEntry": true
+  }
+}
