@@ -1,0 +1,32 @@
+@use "../general/variables" as *;
+
+
+/* --- BOUTON D'APPEL À L'ACTION --- */
+.cta {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  a, button, &__btn {
+    font-family: 'Burlesk', sans-serif;
+    background-image: url("../../img/bg-cta.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: transparent;
+
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+
+    padding: 1.5rem 3rem;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

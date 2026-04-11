@@ -1,0 +1,66 @@
+@use "../general/variables" as *;
+
+.page__aboutme {
+  /* 🎯 On décale tout vers le bas pour ne pas que le header transparent cache le texte */
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  color: $color-white; /* Le texte en blanc pour bien ressortir sur l'océan */
+
+  .aboutme {
+    &__container {
+      max-width: 85rem;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem; /* Espacement entre le titre, l'image et le texte */
+    }
+
+    /* --- LE BLOC TITRE + BADGE --- */
+    &__content {
+      /* 🎯 L'astuce magique : la boîte s'arrête exactement à la fin du nom */
+      width: fit-content;
+    }
+
+    &__title {
+      font-family: "Pacifico", Helvetica, sans-serif;
+      font-size: clamp(3rem, 8vw, 5rem);
+      font-weight: 900;
+      line-height: 1;
+      margin: 0;
+    }
+
+    &__badge {
+      font-family: "Aleo", serif;
+      display: block;
+      text-align: right; /* Aligne le badge à droite de la boîte fit-content */
+      font-size: clamp(1.2rem, 3vw, 1.6rem);
+      color: rgba($color-white, 0.9);
+      margin-top: 0.5rem;
+      padding-right: 1rem; /* Petit décalage esthétique */
+    }
+
+    /* --- L'IMAGE --- */
+    &__image {
+      width: 100%;
+      max-width: 800px; /* Limite la largeur de l'image pour l'esthétique */
+      border-radius: 12px; /* Optionnel : arrondit un peu les angles de l'image */
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+
+    /* --- LE TEXTE --- */
+    &__desc {
+      font-family: "Aleo", serif;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      max-width: 800px; /* Évite que le texte soit trop large, c'est désagréable à lire */
+      margin: 0;
+    }
+  }
+}

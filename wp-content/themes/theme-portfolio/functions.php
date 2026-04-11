@@ -51,11 +51,52 @@ function dw_asset(string $filename): string
 
     return '';
 }
+function dw_register_post_types_and_taxonomies() {
+    register_post_type('projets', [
+        'labels' => [
+            'name'               => 'Projets',
+            'singular_name'      => 'Projet',
+            'add_new'            => 'Ajouter un projet',
+            'add_new_item'       => 'Ajouter un nouveau projet',
+            'edit_item'          => 'Modifier le projet',
+            'all_items'          => 'Tous les projets',
+        ],
+        'description'   => 'Les projets que j’ai réalisé',
+        'menu_position' => 2,
+        'menu_icon'     => 'dashicons-welcome-learn-more',
+        'public'        => true,
+        'has_archive'   => true,
+        'show_in_rest'  => true,
+        'supports'      => ['title', 'excerpt', 'thumbnail'],
+        'rewrite'       => ['slug' => 'projets'],
+    ]);
+
+    register_taxonomy('difficulty', 'projets', [
+        'hierarchical'      => true,
+        'labels'            => [
+            'name'              => 'Types de projets',
+            'singular_name'     => 'Type de projet',
+            'search_items'      => 'Rechercher un type',
+            'all_items'         => 'Tous les types',
+            'edit_item'         => 'Modifier le type',
+            'update_item'       => 'Mettre à jour le type',
+            'add_new_item'      => 'Ajouter un nouveau type',
+            'new_item_name'     => 'Nom du nouveau type',
+            'menu_name'         => 'Types de projet',
+        ],
+        'show_ui'           => true,
+        'show_admin_column' => true,
+        'query_var'         => true,
+        'show_in_rest'      => true,
+    ]);
+}
+add_action('init', 'dw_register_post_types_and_taxonomies');
+
 //charger les traductions existantes
-load_theme_textdomain('portfolio-trad', get_template_directory() . '/locales');
+load_theme_textdomain('hepl-trad', get_template_directory() . '/locales');
 
 // Fonction pour les chaînes de traduction personnalisées
-function __portfolio(string $translation): ?string
+function __hepl(string $translation): ?string
 {
-    return __($translation, 'portfolio-trad');
+    return __($translation, 'hepl-trad');
 }

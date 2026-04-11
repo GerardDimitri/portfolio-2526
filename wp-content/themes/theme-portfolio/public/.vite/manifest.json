@@ -1,6 +1,6 @@
 {
   "wp-content/themes/theme-portfolio/assets/css/styles.scss": {
-    "file": "assets/scss-tn0RQdqM.css",
+    "file": "assets/scss-Duoco--Z.css",
     "src": "wp-content/themes/theme-portfolio/assets/css/styles.scss",
     "isEntry": true,
     "name": "scss",
@@ -8,8 +8,68 @@
       "scss.css"
     ]
   },
+  "wp-content/themes/theme-portfolio/assets/fonts/Aleo-Bold.woff": {
+    "file": "assets/Aleo-Bold-DCIcIVHe.woff",
+    "src": "wp-content/themes/theme-portfolio/assets/fonts/Aleo-Bold.woff"
+  },
+  "wp-content/themes/theme-portfolio/assets/fonts/Aleo-Bold.woff2": {
+    "file": "assets/Aleo-Bold-M_CMDSkS.woff2",
+    "src": "wp-content/themes/theme-portfolio/assets/fonts/Aleo-Bold.woff2"
+  },
+  "wp-content/themes/theme-portfolio/assets/fonts/Aleo-Regular.woff": {
+    "file": "assets/Aleo-Regular-D4OXYVIe.woff",
+    "src": "wp-content/themes/theme-portfolio/assets/fonts/Aleo-Regular.woff"
+  },
+  "wp-content/themes/theme-portfolio/assets/fonts/Aleo-Regular.woff2": {
+    "file": "assets/Aleo-Regular-hqGdim8w.woff2",
+    "src": "wp-content/themes/theme-portfolio/assets/fonts/Aleo-Regular.woff2"
+  },
+  "wp-content/themes/theme-portfolio/assets/fonts/Burlesk-Regular.woff": {
+    "file": "assets/Burlesk-Regular-BmZnVv97.woff",
+    "src": "wp-content/themes/theme-portfolio/assets/fonts/Burlesk-Regular.woff"
+  },
+  "wp-content/themes/theme-portfolio/assets/fonts/Burlesk-Regular.woff2": {
+    "file": "assets/Burlesk-Regular-DICGoIAs.woff2",
+    "src": "wp-content/themes/theme-portfolio/assets/fonts/Burlesk-Regular.woff2"
+  },
+  "wp-content/themes/theme-portfolio/assets/fonts/Pacifico.woff": {
+    "file": "assets/Pacifico-NB0uvEPC.woff",
+    "src": "wp-content/themes/theme-portfolio/assets/fonts/Pacifico.woff"
+  },
+  "wp-content/themes/theme-portfolio/assets/fonts/Pacifico.woff2": {
+    "file": "assets/Pacifico-B1dm2hj9.woff2",
+    "src": "wp-content/themes/theme-portfolio/assets/fonts/Pacifico.woff2"
+  },
+  "wp-content/themes/theme-portfolio/assets/img/Dimitri_Ocean.svg": {
+    "file": "assets/Dimitri_Ocean-QHVjupH9.svg",
+    "src": "wp-content/themes/theme-portfolio/assets/img/Dimitri_Ocean.svg"
+  },
+  "wp-content/themes/theme-portfolio/assets/img/bg-cta-hover.svg": {
+    "file": "assets/bg-cta-hover-YI_u2OUb.svg",
+    "src": "wp-content/themes/theme-portfolio/assets/img/bg-cta-hover.svg"
+  },
+  "wp-content/themes/theme-portfolio/assets/img/bg-cta.svg": {
+    "file": "assets/bg-cta-DLVyo9aO.svg",
+    "src": "wp-content/themes/theme-portfolio/assets/img/bg-cta.svg"
+  },
+  "wp-content/themes/theme-portfolio/assets/img/bg-footer.svg": {
+    "file": "assets/bg-footer-Cg9Dh82L.svg",
+    "src": "wp-content/themes/theme-portfolio/assets/img/bg-footer.svg"
+  },
+  "wp-content/themes/theme-portfolio/assets/img/bg-projets.svg": {
+    "file": "assets/bg-projets-s2s4qBmN.svg",
+    "src": "wp-content/themes/theme-portfolio/assets/img/bg-projets.svg"
+  },
+  "wp-content/themes/theme-portfolio/assets/img/bg-sky.svg": {
+    "file": "assets/bg-sky-DREaJvo9.svg",
+    "src": "wp-content/themes/theme-portfolio/assets/img/bg-sky.svg"
+  },
+  "wp-content/themes/theme-portfolio/assets/img/bg-title.svg": {
+    "file": "assets/bg-title-DpN1CbPL.svg",
+    "src": "wp-content/themes/theme-portfolio/assets/img/bg-title.svg"
+  },
   "wp-content/themes/theme-portfolio/assets/js/main.js": {
-    "file": "assets/js-BhB4YB1w.js",
+    "file": "assets/js-DdYd0na8.js",
     "name": "js",
     "src": "wp-content/themes/theme-portfolio/assets/js/main.js",
     "isEntry": true

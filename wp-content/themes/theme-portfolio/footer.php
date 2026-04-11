@@ -1,8 +1,8 @@
 <?php
 $social_media = dw_get_navigation_links('social-media');
-$nav_footer = dw_get_navigation_links('footer');
-$utils_1 = dw_get_navigation_links('utils-1'); // ex: CSS Tricks, etc.
-$utils_2 = dw_get_navigation_links('utils-2'); // ex: Cairn, Gallica
+$nav_footer   = dw_get_navigation_links('footer');
+$utils_1      = dw_get_navigation_links('utils-1'); // ex: CSS Tricks, etc.
+$utils_2      = dw_get_navigation_links('utils-2'); // ex: Cairn, Gallica
 ?>
 
 <footer class="footer" role="contentinfo">
@@ -53,14 +53,11 @@ $utils_2 = dw_get_navigation_links('utils-2'); // ex: Cairn, Gallica
                 <?php endforeach; ?>
             </ul>
         </div>
-    </div>
 
-    <div class="footer__bottom">
+    </div> <div class="footer__bottom">
         <p class="footer__copyright">
-            © <?= date('Y'); ?> <strong>Gerard Dimitri</strong>. Tous droits réservés. Créé par Gerard Dimitri
+            © <?= date('Y'); ?> <strong>Dimitri Gerard</strong>. Tous droits réservés. Créé par Dimitri Gerard
         </p>
         <a href="<?= get_permalink(get_page_by_path('mention-legale')); ?>" class="footer__legal">Mentions légales</a>
     </div>
 </footer>
-</body>
-</html>

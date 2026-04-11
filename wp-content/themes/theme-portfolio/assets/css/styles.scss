@@ -1,7 +1,13 @@
-/*@use 'general/variables';
+@use 'general/font';
+@use 'general/variables';
 @use 'general/reset.css';
 @use 'general/general';
-@use 'general/footer';
 @use 'general/navigation';
-@use 'components/quests';*/
+@use 'components/parcours';
+@use 'pages/aboutme';
+@use 'pages/landing';
+@use 'components/projets';
+@use 'components/cta';
+@use 'components/quests';
+@use 'general/footer';
 

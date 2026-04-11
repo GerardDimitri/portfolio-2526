@@ -1,0 +1,119 @@
+@use "../general/variables" as *;
+
+.page-projets {
+  padding: 10rem 1.5rem 5rem;
+  text-align: center;
+  color: $color-white;
+
+  &__container {
+    max-width: 60rem; // On resserre pour le mobile comme sur l'image
+    margin: 0 auto;
+  }
+}
+
+/* --- TITRE DE LA SECTION --- */
+.section__title {
+  font-family: 'Burlesk', sans-serif;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  text-transform: uppercase;
+  padding: 2rem 4rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+
+  /* Utilisation de ton SVG de titre */
+  background: url("../../img/bg-title.svg") no-repeat center;
+  background-size: 100% 100%;
+}
+
+/* --- FILTRES --- */
+.projets-filter {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 4rem;
+
+  &__btn {
+    background-image: url("../../img/bg-cta.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% / cover;
+    background-position: center;
+    background-color: transparent;
+
+    color: white;
+    border: none;
+    padding: 1.6rem 1.6rem;
+    font-family: 'Burlesk', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background 0.3s;
+
+    &.is-active, &:hover {
+      background-image: url("../../img/bg-cta-hover.svg");
+    }
+  }
+}
+
+/* --- GRILLE / LISTE DES PROJETS --- */
+.projets-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.projet-card {
+  width: 100%;
+  position: relative;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4)); // Ombre portée sur la forme déchirée
+
+  &__wrapper {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+
+    mask-image: url("../../img/bg-projets.svg");
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Dégradé sombre pour que le texte blanc soit lisible */
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 40%);
+    }
+  }
+
+  &__title {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    margin: 0;
+    color: white;
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    z-index: 2;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+}
+
+/* --- PAGINATION (Lien avec CTA) --- */
+.projets-pagination {
+  margin-top: 5rem;
+  /* On s'assure que le bouton est centré */
+  display: flex;
+  justify-content: center;
+}

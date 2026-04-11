@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Burlask'; /* Le nom que tu utiliseras plus tard */
+  src: url('../../fonts/Burlesk-Regular.woff2') format('woff2'),
+  url('../../fonts/Burlesk-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Astuce pro : affiche une police de secours en attendant le chargement */
+}
+@font-face {
+  font-family: 'Aleo';
+  src: url('../../fonts/Aleo-Regular.woff2') format('woff2'),
+  url('../../fonts/Aleo-Regular.woff') format('woff');
+  font-weight: 400; /* 400 correspond au poids "Regular" */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aleo';
+  src: url('../../fonts/Aleo-Bold.woff2') format('woff2'),
+  url('../../fonts/Aleo-Bold.woff') format('woff');
+  font-weight: 700; /* 700 correspond au poids "Bold" */
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../../fonts/Pacifico.woff2') format('woff2'),
+  url('../../fonts/Pacifico.woff') format('woff');
+  font-weight: 400; /* Pacifico n'existe qu'en une seule épaisseur (Regular/400) */
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,178 +1,174 @@
-/* --- Variables (à conserver) --- */
-$font-title: 'Pacifico', cursive;
-$font-text: 'Aleo', serif;
-$color-white: #ffffff;
-$color-darkblue: #0C076F;
-$color-ocean-bottom: #004da3;
-$transition: all 0.3s ease-in-out;
+@use "../general/variables" as *;
 
 .quest-section {
   position: relative;
-  width: 100%;
-  margin: 0;
-  min-height: 100vh;
-
-  padding: clamp(2vh, 4vh, 6vh) 0;
-  display: flex;
-  flex-direction: column;
-
-  overflow: visible;
-
-  background-color: $color-ocean-bottom;
-  background-image: url('../../img/Dimitri_Ocean.svg');
-  background-repeat: no-repeat;
-  background-position: center top;
+  background: #38c8ff url("../../img/Dimitri_Ocean.svg") no-repeat center top;
   background-size: cover;
-  background-attachment: scroll;
+  padding: 4rem 1.5rem 15rem;
+  overflow-x: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10rem;
+    background: url("../../img/bg-footer.svg") bottom center / cover no-repeat;
+    pointer-events: none;
+    z-index: 1;
+  }
 
   &__container {
-    flex: 1; // Permet au container de prendre toute la place nécessaire
-    display: flex;
-    flex-direction: column;
-  }
-
-  .section__title {
-    font-family: $font-text;
-    font-weight: 800;
-    color: $color-darkblue;
-    font-size: clamp(2rem, 6vw, 4rem);
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  &__header {
-    text-align: center;
-    margin-bottom: 60px;
+    max-width: 85rem;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  &__cta {
-    margin-top: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  /* --- TITRE PRINCIPAL ("MA QUÊTE") --- */
+  .section__title {
+    font-family: 'Burlesk', sans-serif;
+    background-image: url("../../img/bg-title.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+    color: $color-white;
+    text-transform: uppercase;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
   }
 
+  &__header {
+    display: none;
+  }
+
+  /* --- TIMELINE (Ligne verticale noire) --- */
   &__timeline {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 2rem;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: clamp(30px, 6vh, 60px);
-    margin-top: clamp(30px, 6vh, 60px);
 
-    @media (min-width: 1024px) {
-      .quest-step {
-        position: relative;
-        width: 100%;
-
-        // On crée le socle commun pour tous les chemins
-        &::after {
-          content: "";
-          position: absolute;
-          z-index: 0; // Derrière le texte
-          pointer-events: none;
-          background-repeat: no-repeat;
-          background-size: contain;
-        }
-
-        /* --- CHEMIN 1 : Sort de l'étape 1 (Droite) vers l'étape 2 --- */
-        &:nth-child(1)::after {
-          background-image: url('../../img/Chemin1.svg');
-          width: 26vw;
-          height: 22vh;
-          top: 50%;
-          right: 30%;
-          transform: rotate(-7deg);
-          display: block;
-        }
-
-        /* --- CHEMIN 2 : Sort de l'étape 2 (Gauche) vers l'étape 3 --- */
-        &:nth-child(2)::after {
-          background-image: url('../../img/chemin2.svg');
-          top: 50%;
-          left: 50%;
-          width: 20vw;
-          height: 22vh;
-          display: block;
-        }
-
-        /* --- CHEMIN 3 : Sort de l'étape 3 vers le bas --- */
-        &:nth-child(3)::after {
-          background-image: url('../../img/chemin3.svg');
-          top: 90%;
-          left: 50%;
-          width: 20vw;
-          height: 22vh;
-          transform: translateX(-50%);
-          display: block;
-        }
-      }
-
-      // On remonte le texte pour qu'il soit bien au-dessus
-      .quest-step__content {
-        position: relative;
-        z-index: 5;
-      }
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+      background-color: #111;
     }
   }
 
-  /* --- Bloc Étape de Quête --- */
+  /* --- ÉTAPES ("LE DÉPART", "L'EXPLORATION"...) --- */
   .quest-step {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 2rem;
 
+    &:last-child {
+      margin-bottom: 0;
+    }
 
     &__content {
-      padding: clamp(20px, 4vw, 35px);
-      max-width: clamp(280px, 85vw, 480px);
-      color: $color-white;
-      transition: $transition;
-
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      padding: 0;
     }
 
     &__title {
-      font-family: $font-text;
-      color: $color-darkblue;
-      font-weight: 800;
-      font-size: clamp(1.5rem, 4vw, 2rem);
-      margin-bottom: 12px;
+      font-family: 'Burlesk', sans-serif;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      color: #111;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+
+
+      /* La ligne noire sous le titre */
+      display: inline-block;
+      padding-right: 3rem;
+      border-bottom: 3px solid #111;
+
+      padding-left: 1.5rem;
     }
 
     &__description {
-      font-family: $font-text;
-      font-size: clamp(0.95rem, 2vw, 1.05rem); // Texte interne fluide
+      font-family: 'Aleo', serif;
+      color: #111;
+      font-size: 1.1rem;
       line-height: 1.6;
-      color: $color-darkblue;
+      font-weight: 400;
+
+      padding-left: 1.5rem;
 
       p {
-        margin-bottom: 0.8rem;
+        margin: 0;
       }
 
-      p:last-child {
-        margin-bottom: 0;
-      }
     }
+  }
 
-    /* --- Alignements Responsive (PC) --- */
-    @media (min-width: 1024px) {
-      &--left {
-        justify-content: flex-start;
-        text-align: right;
+  .cta__icon-container {
+    display: none;
+  }
 
-        .quest-step__content {
-          margin-left:15vw;
-        }
-      }
+  &__cta {
+    position: relative;
+    z-index: 2;
+    margin-top: 2rem;
+  }
+}
 
-      &--right {
-        justify-content: flex-end;
-        text-align: left;
-        .quest-step__content {
-          margin-right:15vw;
-        }
-      }
+
+.poisson {
+  &__left {
+    position: relative;
+    animation: swim 5s linear infinite;
+
+    svg {
+      will-change: transform;
+      fill: $color-poisson-blue;
+      width: 120%;
+      height: auto;
+    }
+  }
+
+  &__right {
+    position: relative;
+    animation: swim 5s linear infinite reverse;
+
+    svg {
+      transform: scaleX(-1);
+      fill: $color-poisson-blue;
+      width: 120%;
+      height: auto;
+    }
+  }
+
+  @keyframes swim {
+    from {
+      left: 300px;
+      top: 50px;
+    }
+    50% {
+      left: -300px;
+      top: 0;
+      transform: scaleX(1);
+    }
+    50.5% {
+      transform: scaleX(-1);
+      left: -300px;
+      top: 0;
+    }
+    to {
+      transform: scaleX(-1);
+      left: 300px;
+      top: 50px;
     }
   }
 }
