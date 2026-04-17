@@ -4,20 +4,7 @@
   position: relative;
   background: #38c8ff url("../../img/Dimitri_Ocean.svg") no-repeat center top;
   background-size: cover;
-  padding: 4rem 1.5rem 15rem;
   overflow-x: hidden;
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 10rem;
-    background: url("../../img/bg-footer.svg") bottom center / cover no-repeat;
-    pointer-events: none;
-    z-index: 1;
-  }
 
   &__container {
     max-width: 85rem;
@@ -25,6 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 4rem; // Espace en bas pour le bouton
   }
 
   /* --- TITRE PRINCIPAL ("MA QUÊTE") --- */
@@ -34,25 +22,26 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-
     color: $color-white;
     text-transform: uppercase;
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     padding: 1rem 2rem;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
   }
 
   &__header {
     display: none;
   }
 
-  /* --- TIMELINE (Ligne verticale noire) --- */
+  /* --- TIMELINE (Conteneur principal) --- */
   &__timeline {
     width: 100%;
     max-width: 800px;
     margin: 0 auto 2rem;
     position: relative;
+    display: flex;
+    flex-direction: column;
 
     &::before {
       content: '';
@@ -61,13 +50,28 @@
       left: 0;
       width: 3px;
       height: 100%;
-      background-color: #111;
+      background-color: $color-dark;
+    }
+    @include tablet{
+      max-width: 900px;
+      margin-top: 3rem;
+      gap: 2rem;
+
+      &::before {
+        display: none;
+      }
     }
   }
 
-  /* --- ÉTAPES ("LE DÉPART", "L'EXPLORATION"...) --- */
+  /* --- ÉTAPES --- */
   .quest-step {
     margin-bottom: 2rem;
+    width: 100%;
+    position: relative;
+
+    &__container {
+      padding: 0 2rem;
+    }
 
     &:last-child {
       margin-bottom: 0;
@@ -78,28 +82,28 @@
       border: none;
       box-shadow: none;
       padding: 0;
+      width: 100%;
+      z-index: 2;
     }
 
+    /* TYPOGRAPHIE MOBILE (Ligne + Bordure) */
     &__title {
       font-family: 'Burlesk', sans-serif;
       font-size: clamp(1.8rem, 4vw, 2.5rem);
-      color: #111;
+      color: $color-dark;
       text-transform: uppercase;
       margin-bottom: 1rem;
       padding-bottom: 0.5rem;
 
-
-      /* La ligne noire sous le titre */
       display: inline-block;
       padding-right: 3rem;
-      border-bottom: 3px solid #111;
-
+      border-bottom: 3px solid $color-dark;
       padding-left: 1.5rem;
     }
 
     &__description {
       font-family: 'Aleo', serif;
-      color: #111;
+      color: $color-dark;
       font-size: 1.1rem;
       line-height: 1.6;
       font-weight: 400;
@@ -109,22 +113,114 @@
       p {
         margin: 0;
       }
+    }
 
+    /* --- DESKTOP : CARTE AU TRESOR --- */
+    @include tablet {
+      margin-bottom: 0;
+      display: flex;
+
+      &__content {
+        width: 50%;
+        flex-direction: column;
+        z-index: 2;
+        margin-bottom: 2rem;
+      }
+
+      &--left {
+        justify-content: flex-start;
+
+        .quest-step__content {
+          text-align: right;
+          align-items: flex-end;
+        }
+
+        .quest-step__title {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      &--right {
+        justify-content: flex-end; // Place le bloc à droite de l'écran
+
+        .quest-step__content {
+          text-align: left;    // Aligne le texte à gauche
+          align-items: flex-start;
+        }
+
+        .quest-step__title {
+          display: block;
+          width: 100%;
+        }
+      }
+
+      &__title {
+        border-bottom: none; // On enlève la barre noire
+        padding: 0;
+      }
+      &__description {
+        padding-left: 0;
+      }
+
+      /* CHEMINS EN POINTILLÉS SVG */
+      &::after {
+        content: '';
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 1;
+        width: 40%;
+        height: 150px;
+      }
+
+      /* Chemin 1 */
+      &:nth-child(1)::after {
+        background-image: url("../../img/chemin1.svg");
+        right: 38%;
+        top: 45%;
+      }
+
+      /* Chemin 2*/
+      &:nth-child(2)::after {
+        background-image: url("../../img/chemin2.svg");
+        left: 40%;
+        top: 30%;
+      }
+
+      /* Chemin 3*/
+      &:nth-child(3)::after {
+        background-image: url("../../img/chemin3.svg");
+        right: 40%;
+        top: 50%;
+      }
     }
   }
 
   .cta__icon-container {
     display: none;
+
+    @include tablet {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4rem;
+      z-index: 2;
+
+      .cta__icon {
+        width: clamp(40px, 8vw, 70px);
+        height: auto;
+      }
+    }
   }
 
   &__cta {
-    position: relative;
     z-index: 2;
-    margin-top: 2rem;
   }
 }
 
-
+/* --- ANIMATIONS POISSONS --- */
 .poisson {
   &__left {
     position: relative;
@@ -133,7 +229,7 @@
     svg {
       will-change: transform;
       fill: $color-poisson-blue;
-      width: 120%;
+      width: clamp(5rem, 60vw, 20rem);
       height: auto;
     }
   }
@@ -145,7 +241,7 @@
     svg {
       transform: scaleX(-1);
       fill: $color-poisson-blue;
-      width: 120%;
+      width: clamp(5rem, 60vw, 20rem);
       height: auto;
     }
   }

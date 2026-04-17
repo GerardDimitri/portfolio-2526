@@ -1,49 +1,63 @@
 @use "../general/variables" as *;
 
 .page__landing {
-  background: #003173 url("../../img/bg-sky.svg") 50% 50%/cover;
+  background: #003173 url("../../img/bg-sky.svg") 50% / cover;
   position: relative;
-
+  min-height: 80dvh;
+  display: flex;
+  flex-direction: column;
 
 }
-
 .landings {
   color: #fff;
-  overflow: hidden;
   padding-top: 5rem;
   text-align: left;
-  min-height: 80vh;
+  flex:1;
+
 
   &__title {
     font-family: "Pacifico", Helvetica, sans-serif;
     color: $color-white;
-    font-size: clamp(3rem, 8vw, 5rem);
-    padding: 4rem 1.5rem .5rem;
-    font-weight: 900;
-    line-height: .8;
+    font-size: clamp(3rem, 8vw, 8rem);
     margin: 0 auto;
-    position: relative;
     z-index: 1;
-    width: fit-content;
 
     span {
       font-family: "Aleo", serif;
       display: block;
-      font-size: 0.35em;
+      font-size: 0.33em;
       font-weight: 400;
-      color: rgba($color-white, 0.9);
-      margin-top: 0.5rem;
+      color: $color-white;
       text-align: right;
     }
   }
 }
 
 .landing__boat {
-  width: clamp(15rem, 60vw, 35rem);
+  width: clamp(20rem, 80vw, 30rem);
+  position: absolute;
+  bottom: 0;
+
+  @include tablet{
+    left: 15%;
+  }
 
   svg {
-    width: 115%;
+    display: block;
+    max-width: 100%;
     height: auto;
 
+    animation: float 4s ease-in-out infinite;
+    transform-origin: bottom center;
+  }
+}
+@keyframes float {
+
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+
+    transform: translateY(-15px) rotate(1.5deg);
   }
 }

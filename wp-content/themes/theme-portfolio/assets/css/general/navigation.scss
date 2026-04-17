@@ -12,15 +12,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 85rem;
+    max-width: 70rem;
     margin: 0 auto;
     padding: 1rem 1.5rem;
     position: relative;
+
+    @include desktop {
+      max-width: 70rem;
+      padding: 0.5rem 2rem;
+    }
   }
 
   &__logo {
     width: clamp(4rem, 12vw, 6rem);
     z-index: 1300;
+
     &-svg {
       width: 100%;
       fill: $color-white;
@@ -29,6 +35,32 @@
 
   &__checkbox {
     display: none;
+
+    // --- LOGIQUE D'OUVERTURE ---
+    &:checked {
+      // On cible le menu à travers le container
+      & ~ .container .menu {
+        transform: translateX(0);
+        visibility: visible;
+      }
+
+      // Animation du Burger
+      & ~ .header__burger {
+        .line-mid {
+          opacity: 0;
+          transform: scaleX(0);
+        }
+
+        .line-top {
+          // Ajuste les pixels selon la taille de ton SVG burger
+          transform: translateY(10px) rotate(45deg);
+        }
+
+        .line-bot {
+          transform: translateY(-10px) rotate(-45deg);
+        }
+      }
+    }
   }
 
   &__burger {
@@ -42,105 +74,117 @@
 
     svg {
       width: 2.8rem;
-      fill: $color-white;
+      fill: $color-white; // Ton burger utilise le fill ici
       display: block;
+
       path {
         transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         transform-origin: center;
       }
     }
+
+    @include desktop {
+      display: none;
+    }
   }
 
-  .menu-mobile {
-    @media (max-width: 1023px) {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100vh;
+  .container {
+    @include desktop {
+      margin: 0 auto;
+      max-width: 70rem;
       width: 100%;
-      overflow-y: auto;
-      overflow-x: hidden;
-      box-sizing: border-box;
-      background: linear-gradient(180deg, rgba($color-dark, 0.98), rgba($color-primary, 0.95));
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      padding: 8rem 2rem 4rem;
-      list-style: none;
-
-      transform: translateX(100%);
-      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-      z-index: 1200;
-      gap: 2.5rem;
     }
   }
-  /* 🔓 LOGIQUE D'OUVERTURE */
-  &__checkbox:checked {
-    & ~ .container .menu-mobile {
-      transform: translateX(0);
-      visibility: visible;
-    }
 
-    & ~ .header__burger {
-      .line-mid { opacity: 0; transform: scaleX(0); }
-      .line-top { transform: translateY(11px) rotate(45deg); }
-      .line-bot { transform: translateY(-11px) rotate(-45deg); }
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba($color-dark, 0.98), rgba($color-primary, 0.95));
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 2rem 4rem;
+    list-style: none;
+    gap: 2.5rem;
+    transform: translateX(100%);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    z-index: 1200;
+
+    @include desktop {
+      position: static;
+      height: auto;
+      width: auto;
+      background: transparent;
+      flex-direction: row;
+      padding: 0;
+      transform: translateX(0);
+      gap: 1.5rem;
+      overflow: visible;
+      visibility: visible;
+      justify-content: flex-end;
     }
   }
 
   &__item {
-    width: 100%; // Pour que le hover prenne toute la largeur si besoin
+    @include desktop {
+      &.active {
+        .header__link::after {
+          content: "";
+          position: absolute;
+          bottom: -0.25rem;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: $color-white;
+        }
+      }
+    }
   }
 
   &__link {
     color: $color-white;
     text-decoration: none;
-
     font-size: clamp(1.6rem, 7vw, 2.2rem);
     font-weight: 600;
-    text-transform: none;
-    letter-spacing: normal;
-
     transition: 0.3s;
     display: inline-block;
 
-    &:hover {
-      color: $color-accent;
-      transform: translateX(5px);
+    @include desktop {
+      font-size: 1rem;
+      position: relative;
+    }
+  }
+}
+
+.page-template-template-aboutme .header {
+  svg {
+    fill: $color-dark;
+  }
+  @include desktop{
+    &__link{
+      color: $color-dark;
+    }
+    &__item{
+      &.active {
+        .header__link::after {
+          background: $color-dark;
+        }
+      }
     }
   }
 
-
-  &__link--lang {
-    text-transform: lowercase; // Force "en" en minuscules
-    margin-top: 1rem; // Espace supplémentaire avant la langue
-  }
-
-  /* 💻 DESKTOP (Reste inchangé) */
-  @include desktop {
-    &__burger { display: none; }
-    .container { display: block; }
-    .menu-mobile {
-      position: static;
-      transform: none;
-      flex-direction: row;
-      background: none;
-      backdrop-filter: none;
-      height: auto;
-      gap: 2rem;
-      padding: 0; // Reset padding mobile
-      justify-content: flex-end; // Aligne à droite sur desktop
-      align-items: center;
+  #menu-toggle:checked {
+    ~ .header__logo .header__logo-svg path {
+      fill: $color-white;
     }
-    &__link {
-      font-size: 0.95rem;
-      font-weight: 700;
-      text-transform: uppercase; // Remet les majuscules sur desktop si tu veux
+    ~ #burger svg path {
+      fill: $color-white;
     }
-    &__link--lang {
-      text-transform: uppercase; // Remet "EN" en majuscules sur desktop
-      margin-top: 0;
+    &__link{
+      fill: $color-white;
     }
   }
+
 }

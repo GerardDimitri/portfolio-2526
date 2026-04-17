@@ -11,20 +11,6 @@
   }
 }
 
-/* --- TITRE DE LA SECTION --- */
-.section__title {
-  font-family: 'Burlesk', sans-serif;
-  font-size: clamp(2.5rem, 6vw, 4rem);
-  text-transform: uppercase;
-  padding: 2rem 4rem;
-  margin-bottom: 3rem;
-  display: inline-block;
-
-  /* Utilisation de ton SVG de titre */
-  background: url("../../img/bg-title.svg") no-repeat center;
-  background-size: 100% 100%;
-}
-
 /* --- FILTRES --- */
 .projets-filter {
   display: flex;
