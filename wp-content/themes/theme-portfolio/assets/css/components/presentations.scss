@@ -1,22 +1,46 @@
 @use "../general/variables" as *;
 
 .page__presentation {
-  text-align: center;
-  padding: 5rem 1.5rem;
-  max-width: 100%;
+  padding: 5rem 1.5rem 2rem;
+  max-width: 70rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  img{
-    width: 100%;
-    height: auto;
-  }
-  .aboutme__image img {
-    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.3));
-    mask-image: url("../../img/bg-projets.svg");
-    mask-size: contain;
-    mask-repeat: no-repeat;
-    mask-position: center;
+  font-family: 'Aleo','Helvetica', sans-serif;
+  color: $color-dark;
+
+  .aboutme{
+    &__content{
+      width:100%;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    &__image img {
+      filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.3));
+      mask-image: url("../../img/bg-projets.svg");
+      mask-size: contain;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      width: 100%;
+      height: auto;
+    }
+    &__title{
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      font-weight: 800;
+    }
+    &__badge{
+      font-size: clamp(1rem, 4vw, 2rem);
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+    &__desc{
+      font-size: clamp(1rem, 4vw, 2rem);
+      letter-spacing: 0.05em;
+      font-weight: 300;
+    }
   }
 }

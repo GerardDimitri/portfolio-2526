@@ -1,13 +1,34 @@
 @use "../general/variables" as *;
 
-.page-projets {
-  padding: 10rem 1.5rem 5rem;
-  text-align: center;
-  color: $color-white;
+.background-projets{
+  position: relative;
+  background: #38c8ff url("../../img/Dimitri_Ocean.svg") no-repeat center top;
+  background-size: cover;
 
-  &__container {
-    max-width: 60rem; // On resserre pour le mobile comme sur l'image
-    margin: 0 auto;
+  &::after {
+    display: block;
+    content: "";
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 490px;
+    background: url("../../img/bg-footer.svg") 50% / cover;
+    padding: 0;
+  }
+}
+.projets {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 5rem 2rem 0;
+  &__title {
+    color: $color-white;
+    font-family: 'Burlesk', 'Helvetica', sans-serif;
+    background: url("../../img/bg-title-mobile.svg") top/ cover;
+    width: max-content;
+    margin: 0 auto 1rem;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
   }
 }
 
@@ -19,23 +40,16 @@
   margin-bottom: 4rem;
 
   &__btn {
-    background-image: url("../../img/bg-cta.svg");
-    background-repeat: no-repeat;
-    background-size: 100% 100% / cover;
-    background-position: center;
-    background-color: transparent;
-
-    color: white;
-    border: none;
-    padding: 1.6rem 1.6rem;
+    background: url("../../img/bg-filter.svg") top/ cover;
+    width: max-content;
+    color: $color-white;
+    padding: 1rem 1rem;
     font-family: 'Burlesk', sans-serif;
     text-transform: uppercase;
-    cursor: pointer;
     font-size: 1.5rem;
     transition: background 0.3s;
-
     &.is-active, &:hover {
-      background-image: url("../../img/bg-cta-hover.svg");
+      background-image: url("../../img/bg-filter-hover.svg");
     }
   }
 }
@@ -44,7 +58,7 @@
 .projets-grid {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1rem;
 }
 
 .projet-card {

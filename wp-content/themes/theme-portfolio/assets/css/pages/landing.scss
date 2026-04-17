@@ -30,6 +30,15 @@
       color: $color-white;
       text-align: right;
     }
+    &:after{
+      content: "";
+      position: relative;
+      background:url("../../img/Dimitri_Mouettes.svg") top / cover ;
+      width: 20vw;
+      height: 150px;
+      right:-80%;
+      display: block;
+    }
   }
 }
 
