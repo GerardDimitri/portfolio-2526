@@ -100,3 +100,65 @@ function __hepl(string $translation): ?string
 {
     return __($translation, 'hepl-trad');
 }
+register_post_type('contact_message', [
+    'label' => 'Mes messages de contact',
+    'description' => 'Mes messages de contact',
+    'menu_position' => 3,
+    'menu_icon' => 'dashicons-welcome-learn-more',
+    'public' => false,
+    'show_ui' => true,
+    'has_archive' => false,
+    'supports' => ['title', 'editor'],
+]);
+
+add_action('admin_post_nopriv_hepl_contact_form', 'hepl_execute_contact_form');
+add_action('admin_post_hepl_contact_form', 'hepl_execute_contact_form');
+function hepl_execute_contact_form(): void
+{
+    $config = [
+        'nonce_field' => 'contact_nonce',
+        'nonce_identifier' => 'hepl_contact_form'
+    ];
+
+    (new ContactForm($config, $_POST))
+        ->sanitize([ // nettoyer les données
+            'name' => 'text_field', // Je lancerai sanitize_text_field()
+            'email' => 'email',  // Je lancerai sanitize_email()
+            'object' => 'text_field',  // Je lancerai sanitize_text_field()
+            'message' => 'textarea_field',  // Je lancerai sanitize_textarea_field()
+        ])
+        ->validate([ // valider les données
+            'name' => ['required'],
+            // Je définis la règle de validation required que j'exécuterai plus tard
+            'email' => ['email', 'required'],
+            // Je définis les règles de validation required et email que j'exécuterai plus tard
+            'object' => [],
+            //
+            'message' => ['required'],
+            // Je définis la règle de validation required que j'exécuterai plus tard
+        ])
+        ->save( // sauvegarder les données dans un CPT -> message de contact
+            title: fn($data) => $data['name'] . ' - ' . $data['email'] . ' - ' . $data['object'],
+            // John Doe - johndoe@example.com - Mon objet
+            content: fn($data) => $data['message'],
+        )
+        ->send( // J'envoie les données à mon administrateur du site
+            title: fn($data) => 'Nouveau message de ' . $data['name'], // John Doe - johndoe@example.com - Mon objet
+            content: fn($data
+            ) => 'Nom complet: ' . $data['name'] . PHP_EOL . 'Adresse mail: ' . $data['email'] . PHP_EOL . 'Objet: ' . $data['object'] . PHP_EOL . 'Message: ' . $data['message'],
+        )
+        ->feedback();
+}
+function hepl_session_get(string $key)
+{
+    if (isset($_SESSION['hepl_flash']) && array_key_exists($key, $_SESSION['hepl_flash'])) {
+        // 1. Récupérer la donnée qui a été flash
+        $value = $_SESSION['hepl_flash'][$key];
+        // 2. Supprimer la donnée de la session
+        unset($_SESSION['hepl_flash'][$key]);
+        // 3. Retourner ma donnée récupérée
+        return $value;
+    }
+
+    return null;
+}

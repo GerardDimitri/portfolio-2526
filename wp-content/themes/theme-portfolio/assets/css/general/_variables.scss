@@ -1,14 +1,23 @@
 // Couleurs
 $color-primary: #004a99;
 $color-white: #ffffff;
-$color-dark: #0c1a2b;
+$color-dark: #0a192f;
 $color-accent: #ff0000;
 $color-poisson-blue: #059ED5;
 
 // Breakpoints
-$bp-tablet: 48rem;   // 768px
-$bp-desktop: 64rem;  // 1024px
+$bp-tablet: 48rem; // 768px
+$bp-desktop: 64rem; // 1024px
 
 // Mixins
-@mixin tablet { @media (min-width: #{$bp-tablet}) { @content; } }
-@mixin desktop { @media (min-width: #{$bp-desktop}) { @content; } }
+@mixin tablet {
+  @media (min-width: #{$bp-tablet}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$bp-desktop}) {
+    @content;
+  }
+}
