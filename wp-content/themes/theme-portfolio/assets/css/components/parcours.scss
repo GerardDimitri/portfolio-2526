@@ -7,12 +7,14 @@
 
   &__title {
     font-family: 'Burlesk', 'Helvetica', sans-serif;
-    background: url("../../img/bg-title-mobile.svg") top/ cover;
-    width: max-content;
+    background-image: url("../../img/bg-title-mobile.svg");
+    background-position-y: 50%;
+    background-size: 100% 83%;
+    background-repeat: no-repeat;
     margin: 0 auto 2rem;
     padding: 1.5rem;
     text-transform: uppercase;
-
     font-size: clamp(2.5rem, 6vw, 4.5rem);
+    width: max-content;
   }
 }

@@ -1,1 +1,55 @@
 @use "../general/variables" as *;
+
+
+.footer {
+  text-align: left;
+  background: $color-primary;
+
+  &__menu {
+    display: initial;
+    margin: 0;
+    padding: 0;
+
+    ul {
+      display: flex;
+      gap: 3rem;
+      justify-content: space-between;
+      margin: 0 auto;
+      max-width: 70rem;
+      padding: 2rem 2rem 0;
+      width: 100%;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  &__bottom {
+    background: $color-dark;
+  }
+}
+
+.footer__menu-li {
+  color: #fff;
+  font-family: Montserrat, Arial, Helvetica, Roboto, Open Sans, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+
+  ul {
+    li:first-of-type {
+      margin-top: 1rem;
+    }
+
+    li {
+      color: #fff;
+      font-family: Montserrat, Arial, Helvetica, Roboto, Open Sans, sans-serif;
+      font-size: .875rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+    }
+  }
+}

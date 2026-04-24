@@ -7,27 +7,27 @@
   overflow-x: hidden;
 
   &__container {
-    max-width: 85rem;
+    max-width: 70rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 4rem; // Espace en bas pour le bouton
+    padding: 4rem 2rem;
   }
 
   /* --- TITRE PRINCIPAL ("MA QUÊTE") --- */
   .section__title {
-    font-family: 'Burlesk', sans-serif;
-    background-image: url("../../img/bg-title.svg");
+    font-family: 'Burlesk', 'Helvetica', sans-serif;
+    background-image: url("../../img/bg-title-mobile.svg");
+    background-position-y: 50%;
+    background-size: 100% 83%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    color: $color-white;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
     text-transform: uppercase;
     font-size: clamp(2.5rem, 6vw, 4.5rem);
-    padding: 1rem 2rem;
-    text-align: center;
-    margin-top: 2rem;
+    width: max-content;
+    color: $color-white;
   }
 
   &__header {
