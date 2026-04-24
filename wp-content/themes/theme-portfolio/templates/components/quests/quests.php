@@ -54,9 +54,14 @@ $title = get_field('title');
                 />
             </svg>
         </div>
+
         <?php if (have_rows('step_quests')): ?>
+        <div class="quest-step__container">
             <div class="quest-section__timeline">
-                <?php while (have_rows('step_quests')): the_row();
+                <?php
+                $count = 0;
+                while (have_rows('step_quests')): the_row();
+                    $count++;
                     $step_title = get_sub_field('step_title');
                     $step_desc = get_sub_field('step_desc');
                     $step_align = get_sub_field('step_align');
@@ -77,14 +82,13 @@ $title = get_field('title');
                     </article>
                 <?php endwhile; ?>
             </div>
-        <?php endif; ?>
-
-
-        <div class="cta__icon-container">
-            <svg class="cta__icon" width="45" height="45" viewBox="0 0 45 45" fill="none"
-                 xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 10L35 35M35 10L10 35" stroke="#FF0000" stroke-width="4" stroke-linecap="round"/>
-            </svg>
+            <?php endif; ?>
+            <div class="cta__icon-container">
+                <svg class="cta__icon" width="45" height="45" viewBox="0 0 45 45" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 10L35 35M35 10L10 35" stroke="#FF0000" stroke-width="4" stroke-linecap="round"/>
+                </svg>
+            </div>
         </div>
 
         <div class="poisson__left">
@@ -128,6 +132,5 @@ $title = get_field('title');
         <div class="quest-section__cta">
             <?php get_template_part('templates/components/cta/cta'); ?>
         </div>
-
     </div>
 </section>

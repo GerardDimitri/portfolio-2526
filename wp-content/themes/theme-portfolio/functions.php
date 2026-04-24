@@ -1,4 +1,9 @@
 <?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+require_once(__DIR__ . '/core/controllers/ContactForm.php');
+
 include('core/theme/configuration.php');
 
 register_nav_menu('header', 'Le menu qui se trouve dans le header');
@@ -100,21 +105,47 @@ function __hepl(string $translation): ?string
 {
     return __($translation, 'hepl-trad');
 }
-register_post_type('contact_message', [
-    'label' => 'Mes messages de contact',
-    'description' => 'Mes messages de contact',
-    'menu_position' => 3,
-    'menu_icon' => 'dashicons-welcome-learn-more',
-    'public' => false,
-    'show_ui' => true,
-    'has_archive' => false,
-    'supports' => ['title', 'editor'],
-]);
+function hepl_register_contact_cpt() {
+    register_post_type('contact_message', [
+        'label' => 'Mes messages de contact',
+        'description' => 'Mes messages de contact',
+        'menu_position' => 3,
+        'menu_icon' => 'dashicons-welcome-learn-more',
+        'public' => false,
+        'show_ui' => true,
+        'has_archive' => false,
+        'supports' => ['title', 'editor', 'custom-fields'],
+    ]);
+}
+add_action('init', 'hepl_register_contact_cpt');
 
-add_action('admin_post_nopriv_hepl_contact_form', 'hepl_execute_contact_form');
-add_action('admin_post_hepl_contact_form', 'hepl_execute_contact_form');
+function hepl_session_flash($key, $value): void
+{
+    if (!isset($_SESSION['hepl_flash'])) {
+        $_SESSION['hepl_flash'] = [];
+    }
+
+    $_SESSION['hepl_flash'][$key] = $value;
+}
+
+function hepl_session_get(string $key)
+{
+    if (isset($_SESSION['hepl_flash']) && array_key_exists($key, $_SESSION['hepl_flash'])) {
+        // 1. Récupérer la donnée qui a été flash
+        $value = $_SESSION['hepl_flash'][$key];
+        // 2. Supprimer la donnée de la session
+        unset($_SESSION['hepl_flash'][$key]);
+        // 3. Retourner ma donnée récupérée
+        return $value;
+    }
+
+    return null;
+}
+
+
 function hepl_execute_contact_form(): void
 {
+
     $config = [
         'nonce_field' => 'contact_nonce',
         'nonce_identifier' => 'hepl_contact_form'
@@ -134,7 +165,7 @@ function hepl_execute_contact_form(): void
             // Je définis les règles de validation required et email que j'exécuterai plus tard
             'object' => [],
             //
-            'message' => ['required'],
+            'message' => [],
             // Je définis la règle de validation required que j'exécuterai plus tard
         ])
         ->save( // sauvegarder les données dans un CPT -> message de contact
@@ -149,16 +180,11 @@ function hepl_execute_contact_form(): void
         )
         ->feedback();
 }
-function hepl_session_get(string $key)
-{
-    if (isset($_SESSION['hepl_flash']) && array_key_exists($key, $_SESSION['hepl_flash'])) {
-        // 1. Récupérer la donnée qui a été flash
-        $value = $_SESSION['hepl_flash'][$key];
-        // 2. Supprimer la donnée de la session
-        unset($_SESSION['hepl_flash'][$key]);
-        // 3. Retourner ma donnée récupérée
-        return $value;
-    }
 
-    return null;
-}
+add_action('admin_post_nopriv_hepl_contact_form', 'hepl_execute_contact_form');
+add_action('admin_post_hepl_contact_form', 'hepl_execute_contact_form');
+
+
+add_image_size('square-small', 400, 400, true);
+add_image_size('square-medium', 800, 800, true);
+add_image_size('square-large', 1200, 1200, true);
